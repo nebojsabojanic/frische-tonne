@@ -32,7 +32,7 @@
 
                 </div>
 
-                <figure class="graphics">
+                <figure class="graphics graphics--section3">
                     <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-3.svg" alt="Illustration">
                 </figure>
 

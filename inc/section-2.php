@@ -1,6 +1,6 @@
         <section class="section section--blue-gradient">
 
-            <figure class="graphics">
+            <figure class="graphics graphics--section2">
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-2.svg" alt="Illustration">
             </figure>
 

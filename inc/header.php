@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $pageTitle . ' - ' . $siteName; ?></title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="<?php echo BASEURL; ?>/style.css">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1ade7395c8.js" crossorigin="anonymous"></script>
 </head>
