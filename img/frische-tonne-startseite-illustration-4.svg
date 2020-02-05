@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="563" height="378.18" viewBox="0 0 563 378.18">
+  <g id="Group_61" data-name="Group 61" transform="translate(-1095 -4357)">
+    <path id="Path_357" data-name="Path 357" d="M733.537-238.59l29.338,5.171-29.2,5.906-5.171,29.339-5.906-29.2-29.341-5.169,29.2-5.906,5.171-29.341Z" transform="translate(538.125 4624.791)" fill="#fff"/>
+    <path id="Path_358" data-name="Path 358" d="M717.314-250.351l17.522,3.088L717.4-243.736l-3.088,17.522-3.527-17.44-17.524-3.087,17.44-3.527,3.089-17.524Z" transform="translate(649.561 4961.394)" fill="#fff"/>
+    <g id="Group_60" data-name="Group 60" transform="translate(205.69)">
+      <g id="Ellipse_53" data-name="Ellipse 53" transform="translate(1095.31 4357)" fill="#cce0f2" stroke="#cce0f2" stroke-width="1" opacity="0.2">
+        <circle cx="178.5" cy="178.5" r="178.5" stroke="none"/>
+        <circle cx="178.5" cy="178.5" r="178" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_54" data-name="Ellipse 54" cx="116.5" cy="117" rx="116.5" ry="117" transform="translate(1095.31 4433)" fill="#eef7ff" opacity="0.3"/>
+      <ellipse id="Ellipse_55" data-name="Ellipse 55" cx="24.366" cy="10.056" rx="24.366" ry="10.056" transform="translate(1351.667 4417.581) rotate(39)" fill="#fff"/>
+      <ellipse id="Ellipse_56" data-name="Ellipse 56" cx="9.282" cy="4.641" rx="9.282" ry="4.641" transform="translate(1372.481 4466.896) rotate(39)" fill="#fff"/>
+    </g>
+    <path id="Path_360" data-name="Path 360" d="M743.5-231.368l36.594,6.45-36.419,7.366-6.45,36.595-7.366-36.423-36.6-6.447,36.423-7.366,6.45-36.6Z" transform="translate(401.741 4795.176)" fill="#fff"/>
+    <path id="Path_362" data-name="Path 362" d="M714.119-252.668l15.194,2.678-15.122,3.059-2.678,15.195-3.059-15.123-15.2-2.677,15.123-3.059,2.678-15.2Z" transform="translate(675.084 4694.394)" fill="#fff"/>
+    <path id="Path_363" data-name="Path 363" d="M162.76,136.383h.411a18.676,18.676,0,0,0,18.656,18.656v.411a18.676,18.676,0,0,0-18.656,18.656h-.411A18.676,18.676,0,0,0,144.1,155.451v-.411A18.676,18.676,0,0,0,162.76,136.383Zm.205,34.941a19.109,19.109,0,0,1,16.079-16.078,19.112,19.112,0,0,1-16.079-16.079,19.109,19.109,0,0,1-16.078,16.079A19.107,19.107,0,0,1,162.965,171.324Z" transform="translate(1433.861 4515.645)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
