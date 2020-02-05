@@ -1,7 +1,7 @@
-        <section class="section">
+        <section class="section section--blue-gradient">
 
             <figure class="graphics">
-                <img src="img/frische-tonne-startseite-illustration-2.svg" alt="Illustration">
+                <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-2.svg" alt="Illustration">
             </figure>
 
             <div class="section2 grid-1400">

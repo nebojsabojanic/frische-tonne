@@ -17,9 +17,24 @@
 
                 <div class="column">
 
-                    
+                    <p class="paragraph">Ihre Vorteile:</p>
+
+                    <ul>
+                        <li>Keine unangenehme Geruchsbelästigung mehr</li>
+                        <li>Kein Ungeziefer mehr wie Maden, Fliegen, Sporen und Pilze</li>
+                        <li>Einsparung von eigenem Reinigungswasser</li>
+                        <li>Gleichzeitige Reinigung der Mülltonnen von Innen und Außen</li>
+                        <li>Keine zusätzliche Arbeit für Sie</li>
+                        <li>Vermeidung von Gesundheitsgefahren bei eigener Reinigung</li>
+                        <li>Unsere Verträge sind jederzeit mit einer Kündigungsfrist von 4 Wochen kündbar. Somit können Sie ohne Risiko unseren Service auf die Probe stellen.</li>
+                        <li>Unsere Leistungen sind für Sie als haushaltsnahe Dienstleistungen steuerlich absetzbar</li>
+                    </ul>
 
                 </div>
+
+                <figure class="graphics">
+                    <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-3.svg" alt="Illustration">
+                </figure>
 
             </div><!-- End: section3 -->
 
