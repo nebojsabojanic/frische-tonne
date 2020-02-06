@@ -167,8 +167,17 @@
     -o-flex-wrap: wrap;
     flex-wrap: wrap; }
 
+.ta-center {
+    text-align: center;
+}
 
 
 // General
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
 figure {
     margin: 0;}

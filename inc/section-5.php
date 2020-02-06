@@ -8,7 +8,7 @@
                         <h2 class="title--underline">Vorteile der Mülltonnenreinigung</h2>
                     </div>
 
-                    <ul>
+                    <ul class="unordered-list">
                         <li>Keine unangenehme Geruchsbelästigung mehr</li>
                         <li>Kein Ungeziefer mehr wie Maden, Fliegen, Sporen und Pilze</li>
                         <li>Einsparung von eigenem Reinigungswasser</li>

@@ -28,22 +28,46 @@ body {
 }
 
 .title {
+  color: $alt-text-color;
+  font-size: 4rem;
   line-height: 1.1;
 
   &__subtitle {
     font-size: 1.6rem;
     text-transform: uppercase;
-  }
+
+    &::before {
+      content: "•";
+      color: $primary-green;
+      display: inline-block;
+      font-size: 5rem;
+      margin-right: 2rem;
+      padding-bottom: 3px;
+      vertical-align: middle;
+    }
+  } // End: __subtitle
 
   &__main {
     font-size: 5rem;
     letter-spacing: 0.125rem;
   }
 
-  .title--green {
+  &--blue {
+    color: $primary-blue;
+  }
+  
+  &--green {
     color: $primary-green;
   }
-}
+
+  &--underline {
+    &::before {
+      content: '';
+      width: 8rem;
+    }
+  }
+
+} // End: .title
 
 .paragraph {
   font-size: 1.6rem;
@@ -136,7 +160,6 @@ body {
 }
 
 .graphics {
-  position: absolute;
   z-index: 0;
 }
 
@@ -165,28 +188,57 @@ body {
 
   .location__pin {
     list-style-type: none;
-
-    li {
-      font-size: 2rem;
-      line-height: 1.8;
-    }
   }
 }
 
+.unordered-list {
+  li {
+    font-size: 2rem;
+    line-height: 1.8;
 
-
-
-
-
+    &::before {
+      content: "•";
+      color: $primary-green;
+      display: inline-block;
+      font-size: 2rem;
+      padding-bottom: 3px;
+      vertical-align: middle;
+    }
+  }
+}
 
 
 /*=============================================
 =           2.2 Section 2                    =
 =============================================*/
 
+.graphics--section2 {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
+
 /*=============================================
 =           2.3 Section 3                    =
 =============================================*/
+
+.graphics--section3 {
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
 
 /*=============================================
 =           2.4 Section 4                    =

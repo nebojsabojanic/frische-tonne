@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="prices__bottom">
-                            <ul>
+                            <ul class="unordered-list">
                                 <li>26 Reinigungen pro Jahr</li>
                                 <li>Januar - Dezember: alle 2 Woche</li>
                             </ul>
@@ -38,7 +38,7 @@
                         </div>
 
                         <div class="prices__bottom">
-                            <ul>
+                            <ul class="unordered-list">
                                 <li>20 Reinigungen pro Jahr</li>
                                 <li>Mai - Oktober: alle 2 Woche</li>
                                 <li>November - April: alle 4 Woche</li>
@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="prices__bottom">
-                            <ul>
+                            <ul class="unordered-list">
                                 <li>4 Reinigungen pro Jahr</li>
                                 <li>Zeitpunkt frei wählbar</li>
                             </ul>
@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="prices__bottom">
-                            <ul>
+                            <ul class="unordered-list">
                                 <li>6 Reinigungen pro Jahr</li>
                                 <li>Zeitpunkt frei wählbar</li>
                             </ul>
@@ -90,7 +90,7 @@
                         </div>
 
                         <div class="prices__bottom">
-                            <ul>
+                            <ul class="unordered-list">
                                 <li>Zeitpunkt frei wählbar</li>
                             </ul>
                         </div>
@@ -106,7 +106,7 @@
                         </div>
 
                         <div class="prices__bottom">
-                            <ul>
+                            <ul class="unordered-list">
                                 <li>Zusätzliche 11 Reinigungen</li>
                                 <li>Mai - Oktober</li>
                                 <li>Nur in Verbindung mit Paket 1 oder 2</li>

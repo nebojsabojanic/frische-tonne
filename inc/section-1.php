@@ -14,7 +14,7 @@
 
                     <p class="paragraph paragraph--big">Gerne können Sie auch Sie direkt mit uns Kontakt aufnehmen:</p>
 
-                    <address class="location">
+                    <address class="location d-flex d-ait">
                         <i class="fas fa-map-marker-alt"></i><!-- Unicode: f3c5 za Sass ako treba -->
                         <ul class="location__pin">
                             <li><strong>Frische Tonne GmbH</strong></li>
@@ -32,7 +32,7 @@
 
                 </div>
 
-                <div class="column">
+                <div class="column ta-center">
 
                     <figure class="logo">
                         <a href="">
