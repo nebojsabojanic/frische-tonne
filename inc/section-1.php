@@ -16,7 +16,7 @@
 
                     <address class="location">
                         <i class="fas fa-map-marker-alt"></i><!-- Unicode: f3c5 za Sass ako treba -->
-                        <ul>
+                        <ul class="location__pin">
                             <li><strong>Frische Tonne GmbH</strong></li>
                             <li>Im Maisel 3</li>
                             <li>65232 Taunusstein-Neuhof</li>

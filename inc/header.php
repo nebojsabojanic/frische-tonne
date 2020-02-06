@@ -11,6 +11,10 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1ade7395c8.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts - Montserrat (400-700) and Open Sans (400) -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans&display=swap&subset=latin-ext" rel="stylesheet">
+
 </head>
 <body>
 

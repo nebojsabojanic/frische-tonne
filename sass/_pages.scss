@@ -18,10 +18,25 @@ html {
   font-size: 10px;
 }
 
+body {
+  color: $text-color;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .column {
   width: calc(50% - 2rem);
 }
 
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 1.8em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.paragraph--big {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 /*=============================================
