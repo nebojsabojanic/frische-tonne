@@ -1,6 +1,10 @@
         <section class="section">
 
-            <div class="section3 grid-1400">
+            <figure class="graphics graphics--section3">
+                <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-3.svg" alt="Illustration">
+            </figure>
+
+            <div class="section3 grid-1280 d-flex d-jcsb">
                 
                 <div class="column">
 
@@ -31,10 +35,6 @@
                     </ul>
 
                 </div>
-
-                <figure class="graphics graphics--section3">
-                    <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-3.svg" alt="Illustration">
-                </figure>
 
             </div><!-- End: section3 -->
 

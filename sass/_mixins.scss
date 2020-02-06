@@ -157,23 +157,11 @@ letter-spacing: $space;
 }
 
 
-//Home Page Secondary Navigation 
-@mixin secondary-button-theme($bg-color) {
 
-    background-color: $bg-color;
-    &:hover {
-        background-color: darken($bg-color, 10%);
-        
-        &::after {
-
-            border-color:lighten($bg-color, 10%);
-        }
-    }
-    a {
-        &::after {
-            border:2px dashed darken($bg-color, 20%);
-        }
-    }
+// Gradient
+@mixin gradient-blue {
+  background: rgb(22,49,72);
+  background: linear-gradient(90deg, rgba(22,49,72,1) 0%, rgba(44,98,144,1) 50%); 
 }
 
 

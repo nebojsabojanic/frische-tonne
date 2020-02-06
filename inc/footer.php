@@ -1,5 +1,5 @@
     <footer class="footer">
-        <div class="footer__content grid-1400 d-flex d-jcsb">
+        <div class="footer__content grid-1280 d-flex d-jcsb">
             <div class="footer__menu">
                 <ul>
                     <li>Impressum</li>

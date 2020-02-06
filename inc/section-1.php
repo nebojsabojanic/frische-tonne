@@ -1,6 +1,6 @@
         <section class="section section-bg-sky-blue">
 
-            <div class="section1 grid-1400">
+            <div class="section1 grid-1280 d-flex d-jcsb">
                 
                 <div class="column">
 

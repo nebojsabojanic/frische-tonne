@@ -4,13 +4,13 @@
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-6.svg" alt="Illustration">
             </figure>
 
-            <div class="section7 grid-1400">
+            <div class="section7 grid-1280">
                 
                 <div class="title">
                     <h2 class="title--underline title--centered">Preise</h2>
                 </div>
 
-                <div class="prices d--flex d--jcsb d--wrap">
+                <div class="prices d-flex d-jcsb d-wrap">
 
                     <div class="prices__block">
 

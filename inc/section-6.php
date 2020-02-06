@@ -1,6 +1,6 @@
         <section class="section section--blue-gradient">
 
-            <div class="section6 grid-1400">
+            <div class="section6 grid-1280">
                 
                 <div class="title">
                     <h2 class="title--centered">Bei Fragen stehen wir Ihnen gerne zur Verfügung Rufen Sie uns an. Wir beraten Sie gern.</h2>

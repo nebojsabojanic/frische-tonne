@@ -1,6 +1,6 @@
         <section class="section section--blue-gradient">
 
-            <div class="section4 grid-1400">
+            <div class="section4 grid-1280 d-flex d-jcsb">
 
                 <div class="column">
 

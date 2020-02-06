@@ -4,7 +4,7 @@
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-2.svg" alt="Illustration">
             </figure>
 
-            <div class="section2 grid-1400">
+            <div class="section2 grid-1280 d-flex d-jcsb">
                 
                 <div class="column">
 

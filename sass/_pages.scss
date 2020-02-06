@@ -2,8 +2,9 @@
 [Table of contents]
 
 0. General
-1. Page Home
-  1.1 Setof Slider
+1. Header
+2. Page Home
+  2.1. 
 
     
 
@@ -13,11 +14,51 @@
 /*=============================================
 =           0. General                    =
 =============================================*/
+html {
+  font-size: 10px;
+}
+
+.column {
+  width: calc(50% - 2rem);
+}
+
 
 
 /*=============================================
-=           1. Page Home                    =
+=           1. Header                    =
 =============================================*/
 
+.header {
+
+}
+
+.header__cover {
+  img {
+
+  }
+}
 
 
+
+
+
+/*=============================================
+=           2. Page Home                    =
+=============================================*/
+
+.content {
+
+}
+
+.section {
+  padding-bottom: 13rem;
+  padding-top: 13rem;
+}
+
+.section-bg-sky-blue {
+  background-color: $sky-blue;
+}
+
+.section--blue-gradient {
+  @include gradient-blue;
+}
