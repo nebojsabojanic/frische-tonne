@@ -1,11 +1,11 @@
         <section class="section section--blue-gradient">
 
-            <div class="section4 grid-1280 d-flex d-jcsb">
+            <div class="section4 grid-1280 d-flex d-jcsb d-wrap d-aic">
 
                 <div class="column">
 
                     <div class="title">
-                        <span class="title__subtitle">Bei uns erwartet Sie ein kundenfreundlicher Service.</span>
+                        <span class="title--white title__subtitle">Bei uns erwartet Sie ein kundenfreundlicher Service.</span>
                         <h2>Unsere Verträge laufen ohne Bindungen und sind innerhalb von 4 Wochen jederzeit kündbar. Überzeugen Sie sich selbst von uns.</h2>
                     </div>
 

@@ -171,6 +171,14 @@
     text-align: center;
 }
 
+.mb-6r {
+    margin-bottom: 6rem;
+}
+
+.mb-8r {
+    margin-bottom: 8rem;
+}
+
 
 // General
 h1,
@@ -181,3 +189,8 @@ h3 {
 
 figure {
     margin: 0;}
+
+a {
+    color: $alt-text-color;
+    text-decoration: none;
+}

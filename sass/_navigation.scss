@@ -3,9 +3,163 @@
 =============================================*/
 
 .header__hamburger {
+	display: block;
+	-webkit-box-ordinal-group: 2;
+	-ms-flex-order: 1;
+	order: 1; }
 
-}
+	.menu-btn {
+  position: relative;
+  z-index: 2;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+  .menu-btn__burger {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    width: 26px;
+    width: 26px;
+    height: 2px;
+    background: #2484C6;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .menu-btn__burger::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      width: 26px;
+      height: 2px;
+      background: #2484C6;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
+    .menu-btn__burger::after {
+      content: '';
+      position: absolute;
+      top: 8px;
+      width: 26px;
+      height: 2px;
+      background: #2484C6;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
+    .menu-btn__burger.open {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      background: transparent; }
+      .menu-btn__burger.open::before {
+        -webkit-transform: rotate(45deg) translate(5px, 8px);
+        transform: rotate(45deg) translate(5px, 8px);
+        background: #fff; }
+      .menu-btn__burger.open::after {
+        width: 28px;
+        -webkit-transform: rotate(-45deg) translate(3px, -7px);
+        transform: rotate(-45deg) translate(3px, -7px);
+        background: #fff; }
 
-.header__menu {
-    
-}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 60rem;
+  visibility: hidden;
+  z-index: 1;
+  overflow-x: hidden; }
+  .nav ul li {
+    padding-bottom: 1.5rem; }
+    .nav ul li a {
+      color: #fff;
+      font-size: 2rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 500;
+      position: relative;
+      padding-bottom: 3px; }
+      .nav ul li a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #2484C6;
+        -webkit-transition: width .6s;
+        transition: width .6s; }
+      .nav ul li a:hover::after {
+        width: 100%; }
+  .nav.open {
+    visibility: visible; }
+  .nav .menu-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #002F4D;
+    padding-right: 1rem;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .nav .menu-nav.open {
+      -webkit-transform: translateX(0);
+      transform: translateX(0); }
+    .nav .menu-nav .menu-item {
+      -webkit-transform: translateX(100vw);
+      transform: translateX(100vw);
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
+      .nav .menu-nav .menu-item.open {
+        -webkit-transform: translateX(0);
+        transform: translateX(0); }
+
+.menu-nav .menu-item:nth-child(1) {
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s; }
+
+.menu-nav .menu-item:nth-child(2) {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s; }
+
+.menu-nav .menu-item:nth-child(3) {
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s; }
+
+.menu-nav .menu-item:nth-child(4) {
+  -webkit-transition-delay: 0.55s;
+  transition-delay: 0.55s; }
+
+.menu-nav .menu-item:nth-child(5) {
+  -webkit-transition-delay: 0.65s;
+  transition-delay: 0.65s; }
+
+.menu-nav .menu-item:nth-child(6) {
+  -webkit-transition-delay: 0.75s;
+  transition-delay: 0.75s; }
+
+.menu-nav .menu-item:nth-child(7) {
+  -webkit-transition-delay: 0.85s;
+  transition-delay: 0.85s; }
+
+.menu-nav .menu-item:nth-child(8) {
+  -webkit-transition-delay: 0.95s;
+  transition-delay: 0.95s; }
+
+.menu-nav .menu-item:nth-child(9) {
+  -webkit-transition-delay: 1.05s;
+  transition-delay: 1.05s; }
+
+.menu-nav .menu-item:nth-child(10) {
+  -webkit-transition-delay: 1.15s;
+  transition-delay: 1.15s; }

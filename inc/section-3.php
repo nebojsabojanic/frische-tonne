@@ -6,7 +6,7 @@
 
             <div class="section3 grid-1280 d-flex d-jcsb d-wrap">
 
-                <div class="title">
+                <div class="title mb-8r">
                     <h2 class="title--blue title--underline">Die Mülltonnenreinigung für Immobilienverwaltungen</h2>
                 </div>
 

@@ -4,7 +4,7 @@
                 
                 <div class="column">
 
-                    <div class="title">
+                    <div class="title mb-8r">
                         <span class="title__subtitle">Über uns</span>
                         <h1 class="title__main title--green">Die Frische Tonne GmbH</h1>
                     </div>
@@ -16,7 +16,7 @@
 
                     <address class="location d-flex d-ait">
                         <i class="fas fa-map-marker-alt"></i><!-- Unicode: f3c5 za Sass ako treba -->
-                        <ul class="location__pin">
+                        <ul class="unordered-list location__pin">
                             <li><strong>Frische Tonne GmbH</strong></li>
                             <li>Im Maisel 3</li>
                             <li>65232 Taunusstein-Neuhof</li>

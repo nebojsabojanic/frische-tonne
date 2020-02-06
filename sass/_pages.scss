@@ -4,7 +4,14 @@
 0. General
 1. Header
 2. Page Home
-  2.1. 
+  2.1 Section 1
+  2.2 Section 2
+  2.3 Section 3
+  2.4 Section 4
+  2.5 Section 5
+  2.6 Section 6
+  2.7 Section 7
+3. Footer
 
     
 
@@ -31,8 +38,15 @@ body {
   color: $alt-text-color;
   font-size: 4rem;
   line-height: 1.1;
+  position: relative;
+  width: 100%;
+
+  h2 {
+    font-weight: 500;
+  }
 
   &__subtitle {
+    color: $text-color;
     font-size: 1.6rem;
     text-transform: uppercase;
 
@@ -42,7 +56,7 @@ body {
       display: inline-block;
       font-size: 5rem;
       margin-right: 2rem;
-      padding-bottom: 3px;
+      padding-bottom: 0.3rem;
       vertical-align: middle;
     }
   } // End: __subtitle
@@ -60,9 +74,26 @@ body {
     color: $primary-green;
   }
 
+  &--white {
+    color: $alt-text-color;
+    &::before {
+      color: $alt-text-color;
+    }
+  }
+
   &--underline {
     &::before {
+      background-color: $primary-green;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      bottom: -2rem;
       content: '';
+      height: 0.5rem;
+      left: 0;
+      position: absolute;
       width: 8rem;
     }
   }
@@ -80,6 +111,27 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.unordered-list {
+  list-style-type: none;
+  padding-left: 1rem;
+
+  li {
+    font-size: 1.6rem;
+    line-height: 1.8;
+
+    &::before {
+      content: "•";
+      color: $primary-green;
+      display: inline-block;
+      font-size: 2rem;
+      margin-left: -1rem;
+      margin-right: 0.5rem;
+      padding-bottom: 3px;
+      vertical-align: middle;
+    }
+  }
+}
+
 .button {
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -87,6 +139,17 @@ body {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   display: inline-block;
+
+  a {
+    color: $alt-text-color;
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.112rem;
+    line-height: 1.2;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
 
   &--blue {
     background-color: $primary-blue;
@@ -101,17 +164,6 @@ body {
     a {
       color: $primary-blue;
     }
-  }
-
-  a {
-    color: $alt-text-color;
-    display: block;
-    font-size: 1.6rem;
-    letter-spacing: 0.112rem;
-    line-height: 1.2;
-    padding: 2rem 4rem;
-    text-transform: uppercase;
-    text-decoration: none;
   }
 
 }
@@ -187,25 +239,18 @@ body {
   }
 
   .location__pin {
-    list-style-type: none;
-  }
-}
-
-.unordered-list {
-  li {
-    font-size: 2rem;
-    line-height: 1.8;
-
-    &::before {
-      content: "•";
-      color: $primary-green;
-      display: inline-block;
+    li {
       font-size: 2rem;
-      padding-bottom: 3px;
-      vertical-align: middle;
+
+      &::before {
+        content: none;
+      }
     }
   }
 }
+
+
+
 
 
 /*=============================================
@@ -218,6 +263,16 @@ body {
   margin: auto;
   position: absolute;
   top: 0;
+}
+
+.section2 {
+  color: $alt-text-color;
+
+  .title {
+    h2 {
+      width: 50%;
+    }
+  }
 }
 
 
@@ -236,6 +291,14 @@ body {
   top: 0;
 }
 
+.section3 {
+  .title {
+    h2 {
+      width: 50%;
+    }
+  }
+}
+
 
 
 
@@ -244,14 +307,63 @@ body {
 =           2.4 Section 4                    =
 =============================================*/
 
+.section4 {
+
+}
+
+
+
+
+
 /*=============================================
 =           2.5 Section 5                    =
 =============================================*/
+
+.presentation-photos {
+  margin: 13rem auto 1rem;
+  width: 75%;
+
+  figure {
+    text-align: center;
+
+    figcaption {
+      color: $primary-blue;
+      font-size: 1.6rem;
+      margin-top: 30px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+
+
+
 
 /*=============================================
 =           2.6 Section 6                    =
 =============================================*/
 
+.contact-phone {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.28rem;
+
+  i {
+    color: $secundary-blue;
+  }
+}
+
+
+
 /*=============================================
 =           2.7 Section 7                    =
+=============================================*/
+
+
+
+
+
+/*=============================================
+=           3. Footer                    =
 =============================================*/

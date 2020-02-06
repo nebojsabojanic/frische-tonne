@@ -6,7 +6,7 @@
 
             <div class="section7 grid-1280">
                 
-                <div class="title">
+                <div class="title mb-8r">
                     <h2 class="title--underline title--centered">Preise</h2>
                 </div>
 

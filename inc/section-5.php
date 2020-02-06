@@ -1,11 +1,11 @@
-        <section class="section">
+        <section class="section section-bg-sky-blue">
 
-            <div class="section5 grid-1280 d-flex d-jcsb">
+            <div class="section5 grid-1280 d-flex d-jcsb d-wrap">
                 
                 <div class="column">
 
-                    <div class="title">
-                        <h2 class="title--underline">Vorteile der Mülltonnenreinigung</h2>
+                    <div class="title mb-8r">
+                        <h2 class="title--blue title--underline">Vorteile der Mülltonnenreinigung</h2>
                     </div>
 
                     <ul class="unordered-list">
@@ -30,7 +30,7 @@
                 </div>
 
 
-                <div class="presentation-photos">
+                <div class="presentation-photos d-flex d-jcsb">
 
                     <figure>
                         <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-img-1.jpg" alt="Vorher" title="Vorher">
