@@ -1,7 +1,8 @@
 /*=============================================
 =            SETOF Colors                  =
 =============================================*/
-/* Nebojsa addition */
+/* Font */
+/* Additional */
 .grid-5,
 .grid-10,
 .grid-15,
@@ -162,9 +163,6 @@
   -o-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-section {
-  position: relative; }
-
 figure {
   margin: 0; }
 
@@ -192,32 +190,117 @@ body {
 .column {
   width: calc(50% - 2rem); }
 
+.title {
+  line-height: 1.1; }
+  .title__subtitle {
+    font-size: 1.6rem;
+    text-transform: uppercase; }
+  .title__main {
+    font-size: 5rem;
+    letter-spacing: 0.125rem; }
+  .title .title--green {
+    color: #98CB55; }
+
 .paragraph {
   font-size: 1.6rem;
-  line-height: 1.8em;
+  line-height: 1.8;
   font-family: 'Open Sans', sans-serif; }
 
 .paragraph--big {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif; }
 
+.button {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  display: inline-block; }
+  .button--blue {
+    background-color: #326590; }
+  .button--green {
+    background-color: #98CB55; }
+  .button--white {
+    background-color: #FFFFFF; }
+    .button--white a {
+      color: #326590; }
+  .button a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.112rem;
+    line-height: 1.2;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    text-decoration: none; }
+
 /*=============================================
 =           1. Header                    =
 =============================================*/
+.header__cover img {
+  width: 100%; }
+
 /*=============================================
 =           2. Page Home                    =
 =============================================*/
 .section {
   padding-bottom: 13rem;
-  padding-top: 13rem; }
+  padding-top: 13rem;
+  position: relative; }
 
 .section-bg-sky-blue {
   background-color: #EEF7FF; }
 
 .section--blue-gradient {
-  background: #163148;
-  background: linear-gradient(90deg, #163148 0%, #2c6290 50%); }
+  background: -webkit-linear-gradient(left, #163148, #2C6290);
+  background: -moz-linear-gradient(left, #163148, #2C6290);
+  background: -o-linear-gradient(left, #163148, #2C6290);
+  background: linear-gradient(left, #163148, #2C6290); }
 
+.graphics {
+  position: absolute;
+  z-index: 0; }
+
+/*=============================================
+=           2.1 Section 1                    =
+=============================================*/
+.logo {
+  z-index: 2;
+  padding-right: 13rem; }
+
+.section1 .graphics {
+  margin-top: -4rem; }
+
+.location .fas {
+  color: #98CB55;
+  letter-spacing: 0.21rem;
+  line-height: 1.7;
+  font-size: 3rem; }
+.location .location__pin {
+  list-style-type: none; }
+  .location .location__pin li {
+    font-size: 2rem;
+    line-height: 1.8; }
+
+/*=============================================
+=           2.2 Section 2                    =
+=============================================*/
+/*=============================================
+=           2.3 Section 3                    =
+=============================================*/
+/*=============================================
+=           2.4 Section 4                    =
+=============================================*/
+/*=============================================
+=           2.5 Section 5                    =
+=============================================*/
+/*=============================================
+=           2.6 Section 6                    =
+=============================================*/
+/*=============================================
+=           2.7 Section 7                    =
+=============================================*/
 /*=============================================
 =            Section top header             =
 =============================================*/

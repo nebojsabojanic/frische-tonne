@@ -8,9 +8,13 @@ $primary-rose: #AA6969;
 
 $sky-blue: #EEF7FF;
 
-/* Nebojsa addition */
+/* Font */
 $text-color: #333333;
 $alt-text-color: #FFFFFF;
 $alt-bg-color: #FFFFFF;
 
+/* Additional */
+$gradient-color-1: #163148;
+$gradient-color-2: #2C6290;
 
+$gradient: $gradient-color-1, $gradient-color-2; 

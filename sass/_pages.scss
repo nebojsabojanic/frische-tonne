@@ -27,9 +27,27 @@ body {
   width: calc(50% - 2rem);
 }
 
+.title {
+  line-height: 1.1;
+
+  &__subtitle {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  &__main {
+    font-size: 5rem;
+    letter-spacing: 0.125rem;
+  }
+
+  .title--green {
+    color: $primary-green;
+  }
+}
+
 .paragraph {
   font-size: 1.6rem;
-  line-height: 1.8em;
+  line-height: 1.8;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -37,6 +55,44 @@ body {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
+
+.button {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  display: inline-block;
+
+  &--blue {
+    background-color: $primary-blue;
+  }
+
+  &--green {
+    background-color: $primary-green;
+  }
+
+  &--white {
+    background-color: $alt-text-color;
+    a {
+      color: $primary-blue;
+    }
+  }
+
+  a {
+    color: $alt-text-color;
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.112rem;
+    line-height: 1.2;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+}
+
+
 
 
 /*=============================================
@@ -49,7 +105,7 @@ body {
 
 .header__cover {
   img {
-
+    width: 100%;
   }
 }
 
@@ -61,13 +117,14 @@ body {
 =           2. Page Home                    =
 =============================================*/
 
-.content {
+// .content {
 
-}
+// }
 
 .section {
   padding-bottom: 13rem;
   padding-top: 13rem;
+  position: relative;
 }
 
 .section-bg-sky-blue {
@@ -75,5 +132,74 @@ body {
 }
 
 .section--blue-gradient {
-  @include gradient-blue;
+  @include gradient(left, $gradient);
 }
+
+.graphics {
+  position: absolute;
+  z-index: 0;
+}
+
+
+/*=============================================
+=           2.1 Section 1                    =
+=============================================*/
+.logo {
+  z-index: 2;
+  padding-right: 13rem;
+}
+
+.section1 {
+  .graphics {
+    margin-top: -4rem;
+  }
+}
+
+.location {
+  .fas {
+    color: $primary-green;
+    letter-spacing: 0.21rem;
+    line-height: 1.7;
+    font-size: 3rem;
+  }
+
+  .location__pin {
+    list-style-type: none;
+
+    li {
+      font-size: 2rem;
+      line-height: 1.8;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+/*=============================================
+=           2.2 Section 2                    =
+=============================================*/
+
+/*=============================================
+=           2.3 Section 3                    =
+=============================================*/
+
+/*=============================================
+=           2.4 Section 4                    =
+=============================================*/
+
+/*=============================================
+=           2.5 Section 5                    =
+=============================================*/
+
+/*=============================================
+=           2.6 Section 6                    =
+=============================================*/
+
+/*=============================================
+=           2.7 Section 7                    =
+=============================================*/

@@ -34,11 +34,11 @@
 
                 <div class="column">
 
-                    <a href="">
-                        <figure class="logo">
+                    <figure class="logo">
+                        <a href="">
                             <img src="<?php echo BASEURL . $logo; ?>" alt="Frische Tonne Logo">
-                        </figure>
-                    </a>
+                        </a>
+                    </figure>
 
                     <figure class="graphics">
                         <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-1.svg" alt="Illustration">
