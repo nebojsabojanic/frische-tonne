@@ -116,9 +116,10 @@ ul {
 } // End: .title
 
 .paragraph {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 1.8;
-  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3rem;
 }
 
 .paragraph--big {
@@ -284,12 +285,6 @@ ul {
 .section2 {
   color: $alt-text-color;
 
-  .title {
-    h2 {
-      width: 50%;
-    }
-  }
-
   .button {
     margin-top: 65px;
   }
@@ -326,16 +321,6 @@ ul {
 /*=============================================
 =           2.4 Section 4                    =
 =============================================*/
-
-.section4 {
-  .column-left {
-    width: calc(60% - 2rem);
-  }
-
-  .column-right {
-    width: calc(40% - 2rem);
-  }
-}
 
 
 
@@ -485,24 +470,8 @@ ul {
   background: url('img/frische-tonne-footer-background.svg');
   background-color: $sky-blue;
   background-position: center top;
-  padding-top: 5.6rem;
+  padding-bottom: 4.2rem;
   padding-top: 16.6rem;
-}
-
-.footer__menu {
-  ul {
-    li {
-      margin-right: 2.5rem;
-
-      a {
-        font-size: 1.6rem;
-        font-weight: 600;
-        letter-spacing: 0.112rem;
-        text-decoration: none;
-        text-transform: uppercase;
-      }
-    }
-  }
 }
 
 .footer__copyrights {

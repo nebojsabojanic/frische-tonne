@@ -1,6 +1,6 @@
     <footer class="footer">
         <div class="footer__content grid-1280 d-flex d-jcsb">
-            <div class="footer__menu">
+            <div class="footer__menu meta-nav">
                 <ul class="d-flex d-jcsb">
                     <li><a href="<?php echo BASEURL; ?>/impressum.php" title="Impressum">Impressum</a></li>
                     <li><a href="<?php echo BASEURL; ?>/datenschutz.php" title="Datenschutz">Datenschutz</a></li>

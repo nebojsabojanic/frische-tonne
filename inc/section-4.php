@@ -2,7 +2,7 @@
 
             <div class="section4 grid-1280 d-flex d-jcsb d-wrap d-aic">
 
-                <div class="column column-left">
+                <div class="grid-60">
 
                     <div class="title">
                         <span class="title--white title__subtitle">Bei uns erwartet Sie ein kundenfreundlicher Service.</span>
@@ -11,7 +11,7 @@
 
                 </div>
 
-                <div class="column column-right">
+                <div class="grid-35">
 
                     <div class="button button--white">
                         <a href="">Bestellformular herunterladen</a>

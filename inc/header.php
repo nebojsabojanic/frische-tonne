@@ -37,21 +37,13 @@
 </head>
 <body>
 
+    <?php include "inc/menu.php"; ?>
+
+
     <header class="header">
-
-        <div class="header__hamburger">
-
-            <div class="menu-btn">
-                <span class="menu-btn__burger"></span>
-            </div>
-
-        </div> <!-- End: header__hamburger -->
-
-
-        <?php include "inc/menu.php"; ?>
-
 
         <figure class="header__cover">
             <img src="<?php echo BASEURL; ?>/img/frische-tonne-header-img.jpg" alt="Frische Tonne" title="Frische Tonne GmbH">
         </figure>
+
     </header>
