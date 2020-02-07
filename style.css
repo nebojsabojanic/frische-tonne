@@ -167,6 +167,9 @@
 .ta-center {
   text-align: center; }
 
+.mb-4r {
+  margin-bottom: 4rem; }
+
 .mb-6r {
   margin-bottom: 6rem; }
 
@@ -211,19 +214,31 @@ html {
 
 body {
   color: #333333;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  margin: 0; }
+
+address {
+  font-style: normal; }
+
+p {
+  margin: 0; }
+
+ul {
+  list-style: none;
+  margin: 0; }
 
 .column {
   width: calc(50% - 2rem); }
 
 .title {
   color: #FFFFFF;
-  font-size: 4rem;
-  line-height: 1.1;
+  line-height: 1.3;
   position: relative;
   width: 100%; }
   .title h2 {
-    font-weight: 500; }
+    display: inline-block;
+    font-weight: 500;
+    font-size: 4rem; }
   .title__subtitle {
     color: #333333;
     font-size: 1.6rem;
@@ -234,7 +249,7 @@ body {
       display: inline-block;
       font-size: 5rem;
       margin-right: 2rem;
-      padding-bottom: 0.3rem;
+      padding-bottom: 1rem;
       vertical-align: middle; }
   .title__main {
     font-size: 5rem;
@@ -257,7 +272,6 @@ body {
     bottom: -2rem;
     content: '';
     height: 0.5rem;
-    left: 0;
     position: absolute;
     width: 8rem; }
 
@@ -272,6 +286,7 @@ body {
 
 .unordered-list {
   list-style-type: none;
+  margin-top: 0.5rem;
   padding-left: 1rem; }
   .unordered-list li {
     font-size: 1.6rem;
@@ -371,6 +386,8 @@ body {
   color: #FFFFFF; }
   .section2 .title h2 {
     width: 50%; }
+  .section2 .button {
+    margin-top: 65px; }
 
 /*=============================================
 =           2.3 Section 3                    =
@@ -388,6 +405,11 @@ body {
 /*=============================================
 =           2.4 Section 4                    =
 =============================================*/
+.section4 .column-left {
+  width: calc(60% - 2rem); }
+.section4 .column-right {
+  width: calc(40% - 2rem); }
+
 /*=============================================
 =           2.5 Section 5                    =
 =============================================*/
@@ -415,9 +437,92 @@ body {
 /*=============================================
 =           2.7 Section 7                    =
 =============================================*/
+.section7-wrap {
+  padding-bottom: 4.7rem; }
+
+.graphics--section7 {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.section7 .button {
+  margin: 0 auto; }
+
+.prices {
+  margin-bottom: 5rem; }
+  .prices .prices__block {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    width: calc(33.33333% - 2rem); }
+    .prices .prices__block.active .prices__top {
+      background-color: #5FA9E8; }
+  .prices .prices__top {
+    background-color: #98CB55;
+    border-radius: 2rem 2rem 0 0;
+    -webkit-border-radius: 2rem 2rem 0 0;
+    -moz-border-radius: 2rem 2rem 0 0;
+    -ms-border-radius: 2rem 2rem 0 0;
+    -o-border-radius: 2rem 2rem 0 0;
+    color: #FFFFFF;
+    padding: 2.5rem 4rem; }
+    .prices .prices__top .prices__price {
+      font-size: 6rem;
+      letter-spacing: 0.42rem;
+      line-height: 1.2;
+      margin: 0; }
+      .prices .prices__top .prices__price span {
+        display: block;
+        font-size: 1.6rem;
+        letter-spacing: 0.112rem;
+        text-transform: uppercase; }
+  .prices .prices__bottom {
+    background-color: #FFFFFF;
+    border-radius: 0 0 2rem 2rem;
+    -webkit-border-radius: 0 0 2rem 2rem;
+    -moz-border-radius: 0 0 2rem 2rem;
+    -ms-border-radius: 0 0 2rem 2rem;
+    -o-border-radius: 0 0 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 17rem;
+    padding: 2.5rem 4rem; }
+    .prices .prices__bottom .unordered-list {
+      margin: 0;
+      padding: 0; }
+      .prices .prices__bottom .unordered-list li {
+        font-size: 2rem; }
+
 /*=============================================
 =           3. Footer                    =
 =============================================*/
+.footer {
+  background: url("img/frische-tonne-footer-background.svg");
+  background-color: #EEF7FF;
+  background-position: center top;
+  padding-top: 5.6rem;
+  padding-top: 16.6rem; }
+
+.footer__menu ul li {
+  margin-right: 2.5rem; }
+  .footer__menu ul li a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.112rem;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.footer__copyrights p {
+  color: #EEF7FF;
+  font-size: 1.6rem;
+  letter-spacing: 0.112rem; }
+
 /*=============================================
 =            Section top header             =
 =============================================*/
@@ -425,45 +530,59 @@ body {
   display: block;
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
-  order: 1; }
+  order: 1;
+  position: relative; }
 
 .menu-btn {
-  position: relative;
-  z-index: 2;
-  height: 20px;
-  width: 28px;
+  background-color: #326590;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  height: 4rem;
+  width: 4rem;
+  left: 13%;
+  top: 12rem;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
 
 .menu-btn__burger {
+  background: #FFFFFF;
+  border-radius: 3px;
+  bottom: 0;
+  left: 0;
+  margin: auto;
   position: absolute;
   right: 0;
-  top: 0.5rem;
-  width: 26px;
-  width: 26px;
-  height: 2px;
-  background: #2484C6;
+  top: 0;
+  width: 2.6rem;
+  height: 3px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
 .menu-btn__burger::before {
+  background: #FFFFFF;
+  border-radius: 3px;
   content: '';
+  height: 3px;
   position: absolute;
   top: -8px;
-  width: 26px;
-  height: 2px;
-  background: #2484C6;
+  width: 2.6rem;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
 .menu-btn__burger::after {
+  background: #FFFFFF;
+  border-radius: 3px;
   content: '';
+  height: 3px;
   position: absolute;
   top: 8px;
-  width: 26px;
-  height: 2px;
-  background: #2484C6;
+  width: 2.6rem;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
@@ -473,15 +592,21 @@ body {
   background: transparent; }
 
 .menu-btn__burger.open::before {
-  -webkit-transform: rotate(45deg) translate(5px, 8px);
-  transform: rotate(45deg) translate(5px, 8px);
-  background: #fff; }
+  -webkit-transform: rotate(45deg) translate(6px, 6px);
+  transform: rotate(45deg) translate(6px, 6px);
+  background: #fff;
+  -moz-transform: rotate(45deg) translate(6px, 6px);
+  -ms-transform: rotate(45deg) translate(6px, 6px);
+  -o-transform: rotate(45deg) translate(6px, 6px); }
 
 .menu-btn__burger.open::after {
   width: 28px;
-  -webkit-transform: rotate(-45deg) translate(3px, -7px);
-  transform: rotate(-45deg) translate(3px, -7px);
-  background: #fff; }
+  -webkit-transform: rotate(-45deg) translate(5px, -6px);
+  transform: rotate(-45deg) translate(5px, -6px);
+  background: #fff;
+  -moz-transform: rotate(-45deg) translate(5px, -6px);
+  -ms-transform: rotate(-45deg) translate(5px, -6px);
+  -o-transform: rotate(-45deg) translate(5px, -6px); }
 
 .nav {
   position: fixed;
@@ -538,8 +663,11 @@ body {
   height: 100vh;
   background-color: #002F4D;
   padding-right: 1rem;
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 

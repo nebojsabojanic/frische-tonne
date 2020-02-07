@@ -1,4 +1,4 @@
-        <section class="section section--blue-gradient">
+        <section id="die-mulltonnenreinigung" class="section section--blue-gradient">
 
             <figure class="graphics graphics--section2">
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-2.svg" alt="Illustration">

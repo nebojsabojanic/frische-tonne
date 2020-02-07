@@ -28,6 +28,20 @@ html {
 body {
   color: $text-color;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
 }
 
 .column {
@@ -36,13 +50,14 @@ body {
 
 .title {
   color: $alt-text-color;
-  font-size: 4rem;
-  line-height: 1.1;
+  line-height: 1.3;
   position: relative;
   width: 100%;
 
   h2 {
+    display: inline-block;
     font-weight: 500;
+    font-size: 4rem;
   }
 
   &__subtitle {
@@ -56,7 +71,7 @@ body {
       display: inline-block;
       font-size: 5rem;
       margin-right: 2rem;
-      padding-bottom: 0.3rem;
+      padding-bottom: 1rem;
       vertical-align: middle;
     }
   } // End: __subtitle
@@ -92,7 +107,7 @@ body {
       bottom: -2rem;
       content: '';
       height: 0.5rem;
-      left: 0;
+      //left: 0;
       position: absolute;
       width: 8rem;
     }
@@ -113,8 +128,9 @@ body {
 
 .unordered-list {
   list-style-type: none;
+  margin-top: 0.5rem;
   padding-left: 1rem;
-
+  
   li {
     font-size: 1.6rem;
     line-height: 1.8;
@@ -175,9 +191,9 @@ body {
 =           1. Header                    =
 =============================================*/
 
-.header {
+// .header {
 
-}
+// }
 
 .header__cover {
   img {
@@ -273,6 +289,10 @@ body {
       width: 50%;
     }
   }
+
+  .button {
+    margin-top: 65px;
+  }
 }
 
 
@@ -308,7 +328,13 @@ body {
 =============================================*/
 
 .section4 {
+  .column-left {
+    width: calc(60% - 2rem);
+  }
 
+  .column-right {
+    width: calc(40% - 2rem);
+  }
 }
 
 
@@ -339,7 +365,6 @@ body {
 
 
 
-
 /*=============================================
 =           2.6 Section 6                    =
 =============================================*/
@@ -356,9 +381,97 @@ body {
 
 
 
+
+
 /*=============================================
 =           2.7 Section 7                    =
 =============================================*/
+
+.section7-wrap {
+  padding-bottom: 4.7rem;
+}
+
+.graphics--section7 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.section7 {
+  .button {
+    margin: 0 auto;
+  }
+}
+
+.prices {
+  margin-bottom: 5rem;
+
+  .prices__block {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 3rem;
+    width: calc(33.33333% - 2rem);
+
+    &.active {
+      .prices__top {
+        background-color: $secundary-blue;
+      }
+    }
+  }
+
+  .prices__top {
+    background-color: $primary-green;
+    border-radius: 2rem 2rem 0 0;
+    -webkit-border-radius: 2rem 2rem 0 0;
+    -moz-border-radius: 2rem 2rem 0 0;
+    -ms-border-radius: 2rem 2rem 0 0;
+    -o-border-radius: 2rem 2rem 0 0;
+    color: $alt-text-color;
+    padding: 2.5rem 4rem;
+
+    .prices__price {
+      font-size: 6rem;
+      letter-spacing: 0.42rem;
+      line-height: 1.2;
+      margin: 0;
+
+      span {
+        display: block;
+        font-size: 1.6rem;
+        letter-spacing: 0.112rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .prices__bottom {
+    background-color: $alt-text-color;
+    border-radius: 0 0 2rem 2rem;
+    -webkit-border-radius: 0 0 2rem 2rem;
+    -moz-border-radius: 0 0 2rem 2rem;
+    -ms-border-radius: 0 0 2rem 2rem;
+    -o-border-radius: 0 0 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 17rem;
+    padding: 2.5rem 4rem;
+
+    .unordered-list {
+      margin: 0;
+      padding: 0;
+
+      li {
+        font-size: 2rem;
+      }
+    }
+  }
+}
 
 
 
@@ -367,3 +480,39 @@ body {
 /*=============================================
 =           3. Footer                    =
 =============================================*/
+
+.footer {
+  background: url('img/frische-tonne-footer-background.svg');
+  background-color: $sky-blue;
+  background-position: center top;
+  padding-top: 5.6rem;
+  padding-top: 16.6rem;
+}
+
+.footer__menu {
+  ul {
+    li {
+      margin-right: 2.5rem;
+
+      a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 0.112rem;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.footer__copyrights {
+  p {
+    color: $sky-blue;
+    font-size: 1.6rem;
+    letter-spacing: 0.112rem;
+  }
+}
+
+
+
+

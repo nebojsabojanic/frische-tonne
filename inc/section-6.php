@@ -1,8 +1,8 @@
         <section class="section section--blue-gradient">
 
-            <div class="section6 grid-1280 ta-center">
+            <div class="section6 grid-1160 ta-center">
                 
-                <div class="title">
+                <div class="title mb-4r">
                     <h2 class="title--white">Bei Fragen stehen wir Ihnen gerne zur Verfügung Rufen Sie uns an. Wir beraten Sie gern.</h2>
                 </div>
 

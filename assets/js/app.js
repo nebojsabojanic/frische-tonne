@@ -38,7 +38,7 @@ function toggleMenu(){
 
 
 /* Close menu by clicking on a menu item */
-function myFunction() {
+function closeMenu() {
     $('.nav').removeClass('open');
     $('body').removeClass('disable__scroll');
     $('.menu-nav').removeClass('open');

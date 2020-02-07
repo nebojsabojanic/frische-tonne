@@ -1,13 +1,13 @@
-        <section class="section section-bg-sky-blue">
+        <section id="preise" class="section section-bg-sky-blue section7-wrap">
 
             <figure class="graphics graphics--section7">
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-6.svg" alt="Illustration">
             </figure>
 
-            <div class="section7 grid-1280">
+            <div class="section7 grid-1280 ta-center">
                 
                 <div class="title mb-8r">
-                    <h2 class="title--underline title--centered">Preise</h2>
+                    <h2 class="title--blue title--underline">Preise</h2>
                 </div>
 
                 <div class="prices d-flex d-jcsb d-wrap">
@@ -29,7 +29,7 @@
 
                     </div>
 
-                    <div class="prices__block">
+                    <div class="prices__block active">
 
                         <div class="prices__top">
                             <p class="prices__price">

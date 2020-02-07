@@ -1,3 +1,14 @@
+<!--
+ **********************************************
+ * Project: Frishe Tonne, Germany
+ **********************************************
+ * Developed by: Mediavuk Team
+   + web: mediavuk.com
+   + e-mail: <tg@mediavuk.com>
+   + html, css, jquery, vanilla & php
+   + responsive page
+ *********************************************
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $pageTitle . ' - ' . $siteName; ?></title>
 
-    <!-- CSS -->
+    <!-- CSS Styles -->
     <link rel="stylesheet" href="<?php echo BASEURL; ?>/style.css">
 
     <!-- Font Awesome -->

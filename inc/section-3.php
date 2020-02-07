@@ -1,4 +1,4 @@
-        <section class="section">
+        <section id="immobilienverwaltungen" class="section">
 
             <figure class="graphics graphics--section3">
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-3.svg" alt="Illustration">
