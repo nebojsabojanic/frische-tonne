@@ -35,15 +35,3 @@
     <meta name="theme-color" content="#ffffff">
 
 </head>
-<body>
-
-    <?php include "inc/menu.php"; ?>
-
-
-    <header class="header">
-
-        <figure class="header__cover">
-            <img src="<?php echo BASEURL; ?>/img/frische-tonne-header-img.jpg" alt="Frische Tonne" title="Frische Tonne GmbH">
-        </figure>
-
-    </header>

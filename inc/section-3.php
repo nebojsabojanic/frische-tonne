@@ -7,7 +7,7 @@
             <div class="section3 grid-1280 d-flex d-jcsb d-wrap">
 
                 <div class="title mb-8r">
-                    <h2 class="title--blue title--underline">Die Mülltonnenreinigung für Immobilienverwaltungen</h2>
+                    <h2 class="title--blue title--underline">Die Mülltonnenreinigung <br>für Immobilienverwaltungen</h2>
                 </div>
 
                 <div class="column">
@@ -24,14 +24,14 @@
                     <p class="paragraph">Ihre Vorteile:</p>
 
                     <ul class="unordered-list">
-                        <li>Keine unangenehme Geruchsbelästigung mehr</li>
-                        <li>Kein Ungeziefer mehr wie Maden, Fliegen, Sporen und Pilze</li>
-                        <li>Einsparung von eigenem Reinigungswasser</li>
-                        <li>Gleichzeitige Reinigung der Mülltonnen von Innen und Außen</li>
-                        <li>Keine zusätzliche Arbeit für Sie</li>
-                        <li>Vermeidung von Gesundheitsgefahren bei eigener Reinigung</li>
-                        <li>Unsere Verträge sind jederzeit mit einer Kündigungsfrist von 4 Wochen kündbar. Somit können Sie ohne Risiko unseren Service auf die Probe stellen.</li>
-                        <li>Unsere Leistungen sind für Sie als haushaltsnahe Dienstleistungen steuerlich absetzbar</li>
+                        <li class="unordered-list__item">Keine unangenehme Geruchsbelästigung mehr</li>
+                        <li class="unordered-list__item">Kein Ungeziefer mehr wie Maden, Fliegen, Sporen und Pilze</li>
+                        <li class="unordered-list__item">Einsparung von eigenem Reinigungswasser</li>
+                        <li class="unordered-list__item">Gleichzeitige Reinigung der Mülltonnen von Innen und Außen</li>
+                        <li class="unordered-list__item">Keine zusätzliche Arbeit für Sie</li>
+                        <li class="unordered-list__item">Vermeidung von Gesundheitsgefahren bei eigener Reinigung</li>
+                        <li class="unordered-list__item">Unsere Verträge sind jederzeit mit einer Kündigungsfrist von 4 Wochen kündbar. Somit können Sie ohne Risiko unseren Service auf die Probe stellen.</li>
+                        <li class="unordered-list__item">Unsere Leistungen sind für Sie als haushaltsnahe Dienstleistungen steuerlich absetzbar</li>
                     </ul>
 
                 </div>

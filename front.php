@@ -2,10 +2,11 @@
     include "inc/config.php";
 
     $pageTitle = "front-page";
+    $footerImg = "frische-tonne-footer-background.svg"
 
 ?>
 
-<?php include "inc/header.php"; ?>
+<?php include "inc/header-home.php"; ?>
 
 
     <main class="content">

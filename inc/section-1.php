@@ -17,9 +17,9 @@
                     <address class="location d-flex d-ait">
                         <i class="fas fa-map-marker-alt"></i><!-- Unicode: f3c5 za Sass ako treba -->
                         <ul class="unordered-list location__pin">
-                            <li><strong>Frische Tonne GmbH</strong></li>
-                            <li>Im Maisel 3</li>
-                            <li>65232 Taunusstein-Neuhof</li>
+                            <li class="unordered-list__item"><strong>Frische Tonne GmbH</strong></li>
+                            <li class="unordered-list__item">Im Maisel 3</li>
+                            <li class="unordered-list__item">65232 Taunusstein-Neuhof</li>
                         </ul>
                     </address><!-- end: .location -->
 
@@ -35,7 +35,7 @@
                 <div class="column ta-center">
 
                     <figure class="logo">
-                        <a href="">
+                        <a href="<?php echo BASEURL; ?>">
                             <img src="<?php echo BASEURL . $logo; ?>" alt="Frische Tonne Logo">
                         </a>
                     </figure>

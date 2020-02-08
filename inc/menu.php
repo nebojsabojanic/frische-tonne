@@ -1,6 +1,6 @@
-<div class="header__hamburger">
+<div class="header__hamburger ">
 
-	<div class="menu-btn">
+	<div class="menu-btn menu-btn--<?php if($pageTitle == "front-page"){echo 'home';}else{echo 'alt';} ?>">
 		<span class="menu-btn__burger"></span>
 	</div>
 
@@ -12,19 +12,19 @@
       
 		<ul class="main-nav">
 			<li class="menu-item">
-				<a href="#uber-uns" onclick="closeMenu()">Über uns</a>
+				<a href="<?php echo BASEURL; ?>#uber-uns" onclick="closeMenu()">Über uns</a>
 			</li>
 			<li class="menu-item">
-				<a href="#die-mulltonnenreinigung" onclick="closeMenu()">Die Mülltonnenreinigung</a>
+				<a href="<?php echo BASEURL; ?>#die-mulltonnenreinigung" onclick="closeMenu()">Die Mülltonnenreinigung</a>
 			</li>
 			<li class="menu-item">
-				<a href="#immobilienverwaltungen" onclick="closeMenu()">Die Mülltonnenreinigung für Immobilienverwaltungen</a>
+				<a href="<?php echo BASEURL; ?>#immobilienverwaltungen" onclick="closeMenu()">Die Mülltonnenreinigung für Immobilienverwaltungen</a>
 			</li>
 			<li class="menu-item">
-				<a href="#vorteile" onclick="closeMenu()">Vorteile der Mülltonnenreinigung</a>
+				<a href="<?php echo BASEURL; ?>#vorteile" onclick="closeMenu()">Vorteile der Mülltonnenreinigung</a>
 			</li>
 			<li class="menu-item">
-				<a href="#preise" onclick="closeMenu()">Preise</a>
+				<a href="<?php echo BASEURL; ?>#preise" onclick="closeMenu()">Preise</a>
 			</li>
 		</ul>
 

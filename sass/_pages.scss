@@ -11,7 +11,8 @@
   2.5 Section 5
   2.6 Section 6
   2.7 Section 7
-3. Footer
+3. Alt Pages
+4. Footer
 
     
 
@@ -33,6 +34,7 @@ body {
 
 address {
   font-style: normal;
+  margin: 3rem 0 6rem;
 }
 
 p {
@@ -42,6 +44,29 @@ p {
 ul {
   list-style: none;
   margin: 0;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+
+  & > li {
+    margin: 0;
+    list-style-type: none;
+    counter-increment: item;
+
+    &::before {
+      display: inline-block;
+      width: 1em;
+      padding-right: 0.5em;
+      font-weight: bold;
+      content: counter(item) ".";
+      position: absolute;
+      left: 0;
+      font-size: 2rem;
+    }
+  }
 }
 
 .column {
@@ -55,7 +80,7 @@ ul {
   width: 100%;
 
   h2 {
-    display: inline-block;
+    display: block;
     font-weight: 500;
     font-size: 4rem;
   }
@@ -63,16 +88,20 @@ ul {
   &__subtitle {
     color: $text-color;
     font-size: 1.6rem;
-    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 1.5rem;
+    position: relative;
+    text-transform: uppercase;    
 
     &::before {
-      content: "•";
-      color: $primary-green;
-      display: inline-block;
-      font-size: 5rem;
-      margin-right: 2rem;
-      padding-bottom: 1rem;
-      vertical-align: middle;
+      content: "";
+      background-color: $primary-green;
+      border-radius: 50%;
+      height: 5px;
+      left: 0;
+      position: absolute;
+      top: 0.5rem;
+      width:5px;
     }
   } // End: __subtitle
 
@@ -132,32 +161,43 @@ ul {
   margin-top: 0.5rem;
   padding-left: 1rem;
   
-  li {
+  .unordered-list__item {
+    display: inline-block;
     font-size: 1.6rem;
     line-height: 1.8;
+    padding-left: 1.5rem;
+    position: relative;
 
     &::before {
-      content: "•";
-      color: $primary-green;
-      display: inline-block;
-      font-size: 2rem;
-      margin-left: -1rem;
-      margin-right: 0.5rem;
-      padding-bottom: 3px;
-      vertical-align: middle;
+      content: "";
+      background-color: $primary-green;
+      border-radius: 50%;
+      height: 5px;
+      left: 0;
+      position: absolute;
+      top: 1.2rem;
+      width:5px;
+    }
+
+    &.item--basic {
+      margin-left: 2rem;
+
+      &::before {
+        background-color: $text-color;
+      }
     }
   }
 }
 
 .button {
-  border-radius: 30px;
+  display: inline-block;
+
+  a {
+    border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  display: inline-block;
-
-  a {
     color: $alt-text-color;
     display: block;
     font-size: 1.6rem;
@@ -169,18 +209,26 @@ ul {
   }
 
   &--blue {
-    background-color: $primary-blue;
+    a {
+      background-color: $primary-blue;
+    }
   }
 
   &--green {
-    background-color: $primary-green;
+    a {
+      background-color: $primary-green;
+    }
   }
 
   &--white {
-    background-color: $alt-text-color;
     a {
+      background-color: $alt-text-color;
       color: $primary-blue;
     }
+  }
+
+  &--header-phone {
+    margin-right: 10rem;
   }
 
 }
@@ -192,13 +240,67 @@ ul {
 =           1. Header                    =
 =============================================*/
 
-// .header {
+.header {
+  &--alt {
+    margin-bottom: 7rem;
+  }
 
-// }
+  &__content {
+    margin-bottom: 4rem;
+  }
+}
 
 .header__cover {
   img {
     width: 100%;
+  }
+}
+
+/* Alt pages header style */
+.message {
+  background-color: $primary-blue;
+  margin-bottom: 3.5rem;
+  padding: 1.5rem 3rem;
+  text-align: center;
+
+  &__paragraph {
+    color: $alt-text-color;
+    font-size: 2.4rem;
+    letter-spacing: 0.12rem;
+    line-height: 1.2;
+  }
+}
+
+.breadcrumbs {
+  border-bottom: 0.2rem dotted $primary-green;
+  border-top: 0.2rem dotted $primary-green;
+  padding: 3.2rem 0;
+
+  a {
+    color: $primary-blue;
+    display: inline;
+    font-size: 1.6rem;
+  }
+
+  p {
+    color: $primary-blue;
+    display: inline;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    padding-left: 3rem;
+    position: relative;
+
+    &::before {
+      content: "";
+      background-color: $primary-green;
+      border-radius: 50%;
+      height: 1rem;
+      left: 0;
+      position: absolute;
+      top: 0.5rem;
+      width: 1rem;
+    }
   }
 }
 
@@ -256,7 +358,8 @@ ul {
   }
 
   .location__pin {
-    li {
+    .unordered-list__item {
+      display: block;
       font-size: 2rem;
 
       &::before {
@@ -304,14 +407,6 @@ ul {
   margin: auto;
   position: absolute;
   top: 0;
-}
-
-.section3 {
-  .title {
-    h2 {
-      width: 50%;
-    }
-  }
 }
 
 
@@ -451,7 +546,7 @@ ul {
       margin: 0;
       padding: 0;
 
-      li {
+      .unordered-list__item {
         font-size: 2rem;
       }
     }
@@ -463,15 +558,85 @@ ul {
 
 
 /*=============================================
-=           3. Footer                    =
+=           3. Alt Pages                    =
+=============================================*/
+
+.alt-page {
+  .title {
+    .title__subtitle {
+      padding-left: 4rem;
+
+      &::before {
+        height: 1.6rem;
+        top: 0.2rem;
+        width: 1.6rem;
+      }
+    }
+
+    h2 {
+      margin-top: 3rem;
+    }
+  }
+}
+
+.law {
+  margin: 5rem auto 8rem;
+
+  ol {
+    & > li {
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-left: 3rem;
+  }
+
+  &__content {
+    font-size: 1.6rem;
+
+    a {
+      color: $primary-green;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+
+
+
+
+/*=============================================
+=           4. Footer                    =
 =============================================*/
 
 .footer {
-  background: url('img/frische-tonne-footer-background.svg');
-  background-color: $sky-blue;
-  background-position: center top;
-  padding-bottom: 4.2rem;
-  padding-top: 16.6rem;
+  position: relative;
+
+  &--home {
+    background-color: $sky-blue;
+  }
+
+  img {
+    margin-bottom: -4px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .footer__content {
+    bottom: 5.6rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
 }
 
 .footer__copyrights {

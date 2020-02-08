@@ -22,8 +22,8 @@
 
                         <div class="prices__bottom">
                             <ul class="unordered-list">
-                                <li>26 Reinigungen pro Jahr</li>
-                                <li>Januar - Dezember: alle 2 Woche</li>
+                                <li class="unordered-list__item">26 Reinigungen pro Jahr</li>
+                                <li class="unordered-list__item">Januar - Dezember: alle 2 Woche</li>
                             </ul>
                         </div>
 
@@ -39,9 +39,9 @@
 
                         <div class="prices__bottom">
                             <ul class="unordered-list">
-                                <li>20 Reinigungen pro Jahr</li>
-                                <li>Mai - Oktober: alle 2 Woche</li>
-                                <li>November - April: alle 4 Woche</li>
+                                <li class="unordered-list__item">20 Reinigungen pro Jahr</li>
+                                <li class="unordered-list__item">Mai - Oktober: alle 2 Woche</li>
+                                <li class="unordered-list__item">November - April: alle 4 Woche</li>
                             </ul>
                         </div>
 
@@ -57,8 +57,8 @@
 
                         <div class="prices__bottom">
                             <ul class="unordered-list">
-                                <li>4 Reinigungen pro Jahr</li>
-                                <li>Zeitpunkt frei wählbar</li>
+                                <li class="unordered-list__item">4 Reinigungen pro Jahr</li>
+                                <li class="unordered-list__item">Zeitpunkt frei wählbar</li>
                             </ul>
                         </div>
 
@@ -74,8 +74,8 @@
 
                         <div class="prices__bottom">
                             <ul class="unordered-list">
-                                <li>6 Reinigungen pro Jahr</li>
-                                <li>Zeitpunkt frei wählbar</li>
+                                <li class="unordered-list__item">6 Reinigungen pro Jahr</li>
+                                <li class="unordered-list__item">Zeitpunkt frei wählbar</li>
                             </ul>
                         </div>
 
@@ -91,7 +91,7 @@
 
                         <div class="prices__bottom">
                             <ul class="unordered-list">
-                                <li>Zeitpunkt frei wählbar</li>
+                                <li class="unordered-list__item">Zeitpunkt frei wählbar</li>
                             </ul>
                         </div>
 
@@ -107,9 +107,9 @@
 
                         <div class="prices__bottom">
                             <ul class="unordered-list">
-                                <li>Zusätzliche 11 Reinigungen</li>
-                                <li>Mai - Oktober</li>
-                                <li>Nur in Verbindung mit Paket 1 oder 2</li>
+                                <li class="unordered-list__item">Zusätzliche 11 Reinigungen</li>
+                                <li class="unordered-list__item">Mai - Oktober</li>
+                                <li class="unordered-list__item">Nur in Verbindung mit Paket 1 oder 2</li>
                             </ul>
                         </div>
 
