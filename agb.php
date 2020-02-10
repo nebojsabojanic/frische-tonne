@@ -22,7 +22,7 @@
                 <li>
                     <div class="law__title">Allgemein</div>
                     <div class="law__content">
-                        <p>Alle Daten und Informationen zur Dienstleistung der Firma Frische-Tonne GmbH (folgend Unternehmen genannt) werden auf den Seiten im Internet unter www.frische-tonne.de veröffentlicht und bekanntgegeben. Um unsere Dienstleistung so kostengünstig wie möglich anbieten zu können, wird auf eine teure Informationsübermittlung (Post) weitgehend verzichtet. Der individuelle Schriftverkehr erfolgt wenn möglich per e-Mail.</p>
+                        <p class="paragraph">Alle Daten und Informationen zur Dienstleistung der Firma Frische-Tonne GmbH (folgend Unternehmen genannt) werden auf den Seiten im Internet unter www.frische-tonne.de veröffentlicht und bekanntgegeben. Um unsere Dienstleistung so kostengünstig wie möglich anbieten zu können, wird auf eine teure Informationsübermittlung (Post) weitgehend verzichtet. Der individuelle Schriftverkehr erfolgt wenn möglich per e-Mail.</p>
                     </div>
                 </li>
 
@@ -42,7 +42,7 @@
                 <li>
                     <div class="law__title">Werbeaktionen</div>
                     <div class="law__content">
-                        <p>Das Unternehmen behält sich vor, für z.B. Werbeaktionen temporär von den in der genannten Preisliste genannten Preisen abzuweichen. Beim Kunden befindliche Angebote, respektive bereits laufende Verträge bleiben hiervon unberührt. Hier gelten nach wie vor die avisierten / vereinbarten Preise.</p>
+                        <p class="paragraph">Das Unternehmen behält sich vor, für z.B. Werbeaktionen temporär von den in der genannten Preisliste genannten Preisen abzuweichen. Beim Kunden befindliche Angebote, respektive bereits laufende Verträge bleiben hiervon unberührt. Hier gelten nach wie vor die avisierten / vereinbarten Preise.</p>
                     </div>
                 </li>
 
@@ -133,21 +133,21 @@
                 <li>
                     <div class="law__title">Gerichtsstand</div>
                     <div class="law__content">
-                        <p>Als Gerichtsstand wird Taunusstein vereinbart.</p>
+                        <p class="paragraph">Als Gerichtsstand wird Taunusstein vereinbart.</p>
                     </div>
                 </li>
 
                 <li>
                     <div class="law__title">Sonstiges</div>
                     <div class="law__content">
-                        <p>Nebenabsprachen bedürfen der Schriftform</p>
+                        <p class="paragraph">Nebenabsprachen bedürfen der Schriftform</p>
                     </div>
                 </li>
 
                 <li>
                     <div class="law__title">Salvatorische Klausel</div>
                     <div class="law__content">
-                        <p>Für den Fall, dass eine Bestimmung dieser allgemeinen Geschäftsbedingungen unwirksam sein sollte, wird die Wirksamkeit der übrigen Bestimmungen nicht berührt. Wir behalten uns vor, die allgemeinen Geschäftsbedingungen bei Bedarf jederzeit anzupassen oder zu ändern. Die allgemeinen Geschäftsbedingungen stehen auf unserer Internetseite (Formulare) zur Einsicht in der jeweils gültigen Fassung zur Verfügung. Ausfertigungen in Papierform werden auf Verlangen zur Verfügung gestellt.</p>
+                        <p class="paragraph">Für den Fall, dass eine Bestimmung dieser allgemeinen Geschäftsbedingungen unwirksam sein sollte, wird die Wirksamkeit der übrigen Bestimmungen nicht berührt. Wir behalten uns vor, die allgemeinen Geschäftsbedingungen bei Bedarf jederzeit anzupassen oder zu ändern. Die allgemeinen Geschäftsbedingungen stehen auf unserer Internetseite (Formulare) zur Einsicht in der jeweils gültigen Fassung zur Verfügung. Ausfertigungen in Papierform werden auf Verlangen zur Verfügung gestellt.</p>
                     </div>
                 </li>
 

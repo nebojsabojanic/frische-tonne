@@ -28,15 +28,15 @@
                     <p>(Deutschland)</p>
                 </address>
                     
-                <p>Telefon: <a href="tel:004915202730706">+49 (0) 152-02 73 07 06</a></p>
-                <p>Telefax: +49</p>
-                <p>e-Mail: <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></p>
+                <p class="paragraph">Telefon: <a href="tel:004915202730706">+49 (0) 152-02 73 07 06</a></p>
+                <p class="paragraph">Telefax: +49</p>
+                <p class="paragraph">e-Mail: <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></p>
  
  
-                <p>Steuernummer: Liegt noch nicht vor</p>
-                <p>Gläubiger ID DE 04 Z 1 Z 0000721480</p>
+                <p class="paragraph">Steuernummer: Liegt noch nicht vor</p>
+                <p class="paragraph">Gläubiger ID DE 04 Z 1 Z 0000721480</p>
  
-                <p>Geschäftsführer: Melanie Heun-Sass</p>
+                <p class="paragraph">Geschäftsführer: Melanie Heun-Sass</p>
             
         </div>
 
