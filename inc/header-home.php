@@ -1,6 +1,6 @@
 <?php include "inc/head.php"; ?>
 
-<body class="home-page">
+<body class="home-page <?php echo $pageTitleShort; ?>">
 
     <header class="header">
 

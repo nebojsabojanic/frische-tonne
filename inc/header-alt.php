@@ -1,6 +1,8 @@
 <?php include "head.php"; ?>
 
-<body class="agb alt-page">
+<body class="alt-page <?php echo $pageTitleShort; ?>">
+
+<?php if($pageTitle != '404'){ ?>
 
     <!-- <div class="message">
         <p class="message__paragraph">So sauber wie neu! - umweltschonende Mülltonnen-Reinigung - ab 5,00 €</p>
@@ -25,3 +27,5 @@
         </div>
 
     </header>
+
+<?php } // End: if not 404 ?>

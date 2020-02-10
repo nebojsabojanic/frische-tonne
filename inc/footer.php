@@ -1,6 +1,8 @@
+<?php if($pageTitle != '404'){ ?>
+   
     <footer class="footer footer--<?php if($pageTitle == "Startseite"){echo 'home';}else{echo 'alt';} ?>">
 
-    <img src="<?php echo BASEURL; ?>/img/<?php echo $footerImg; ?>" alt="background">
+        <img src="<?php echo BASEURL; ?>/img/<?php echo $footerImg; ?>" alt="background">
 
         <div class="footer__content grid-1280 d-flex d-jcsb">
             <div class="footer__menu meta-nav">
@@ -16,6 +18,8 @@
             </div>
         </div>
     </footer>
+
+<?php } ?>
 
 
 <!-- Scripts / Libraries

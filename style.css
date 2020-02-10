@@ -7,13 +7,28 @@
 /*=============================================
 =           0. General                    =
 =============================================*/
+html, body {
+  height: 100%; }
+
 html {
   font-size: 10px; }
 
 body {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
-  margin: 0; }
+  margin: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column; }
+
+.content {
+  -webkit-box-flex: 1;
+  flex: 1 0 auto; }
+
+.footer {
+  flex-shrink: 0; }
 
 address {
   font-style: normal;
@@ -300,42 +315,37 @@ ol {
 
 .d-flex {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
+
+.d-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column; }
 
 .d-jcsb {
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .d-jcsa {
-  -ms-flex-pack: distribute;
   justify-content: space-around; }
 
 .d-jcc {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
 
 .d-jce {
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: flex-end; }
 
 .d-aic {
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center; }
 
 .d-aiend {
   -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end; }
 
 .d-wrap {
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
   flex-wrap: wrap; }
 
@@ -477,11 +487,9 @@ ol {
 =           2.2 Section 2                    =
 =============================================*/
 .graphics--section2 {
-  bottom: 0;
   left: 0;
   margin: auto;
-  position: absolute;
-  top: 0; }
+  position: absolute; }
 
 .section2 {
   color: #FFFFFF; }
@@ -597,10 +605,10 @@ ol {
     min-height: 12rem;
     padding: 1rem 3rem; }
     .prices .prices__bottom .unordered-list {
-      margin: 0 auto;
-      padding: 0;
-      text-align: left;
-      width: 90%; }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left; }
       .prices .prices__bottom .unordered-list .unordered-list__item {
         font-size: 1.6rem; }
         .prices .prices__bottom .unordered-list .unordered-list__item::before {
@@ -642,12 +650,37 @@ ol {
 /*=============================================
 =           4. Footer                    =
 =============================================*/
+.page-404 .title {
+  margin-bottom: 3rem;
+  text-align: center; }
+.page-404__title {
+  font-size: 7rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  line-height: 1.25; }
+.page-404__subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.8; }
+.page-404__description {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center; }
+
+.logo--404 {
+  margin-bottom: 7rem;
+  padding: 0; }
+
+/*=============================================
+=           4. Footer                    =
+=============================================*/
 .footer {
   position: relative; }
   .footer--home {
     background-color: #CCE0F2; }
   .footer img {
-    margin-bottom: -4px;
+    margin-bottom: -2px;
     position: relative;
     width: 100%;
     z-index: 1; }
@@ -861,7 +894,7 @@ ol {
 .menu-nav {
   flex-direction: column; }
   .menu-nav .main-nav {
-    padding: 28rem 12rem 10rem; }
+    padding: 45% 12rem 15%; }
   .menu-nav .meta-nav {
     margin-top: auto; }
 

@@ -1,6 +1,11 @@
 /*=============================================
 =           0. General                    =
 =============================================*/
+
+html, body {
+    height: 100%;
+}
+
 html {
     font-size: 10px;
 }
@@ -9,8 +14,22 @@ body {
     color: $text-color;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
 }
-  
+
+.content {
+    -webkit-box-flex: 1;
+            flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
 address {
     font-style: normal;
     margin: 3rem 0 6rem;
@@ -373,42 +392,39 @@ ol {
 // Display Flex
 .d-flex {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
+
+.d-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    
+}
 
 .d-jcsb {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between; }
 
 .d-jcsa {
-    -ms-flex-pack: distribute;
     justify-content: space-around; }
 
 .d-jcc {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center; }
     
 .d-jce {
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: flex-end; }
 
 .d-aic {
     -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
 
 .d-aiend {
     -webkit-box-align: end;
-    -ms-flex-align: end;
     align-items: flex-end; }
 
 .d-wrap {
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     -o-flex-wrap: wrap;
     flex-wrap: wrap; }
 
