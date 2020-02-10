@@ -3,7 +3,7 @@
 <body class="home-page">
 
     <header class="header">
-        
+
         <?php include "inc/menu.php"; ?>
 
         <figure class="header__cover">

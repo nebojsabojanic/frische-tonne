@@ -1,4 +1,4 @@
-    <footer class="footer footer--<?php if($pageTitle == "front-page"){echo 'home';}else{echo 'alt';} ?>">
+    <footer class="footer footer--<?php if($pageTitle == "Startseite"){echo 'home';}else{echo 'alt';} ?>">
 
     <img src="<?php echo BASEURL; ?>/img/<?php echo $footerImg; ?>" alt="background">
 
@@ -12,7 +12,7 @@
             </div>
 
             <div class="footer__copyrights">
-                <p>Copyright 2020 @ All rights reserved</p>
+                <p>Copyright <?php echo date('Y');?> @ All rights reserved</p>
             </div>
         </div>
     </footer>
@@ -21,7 +21,6 @@
 <!-- Scripts / Libraries
     ####################################################### -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="<?php echo BASEURL; ?>/assets/js/smoothscroll.js"></script>
     <script src="<?php echo BASEURL; ?>/assets/js/app.js"></script>
 
 </body>

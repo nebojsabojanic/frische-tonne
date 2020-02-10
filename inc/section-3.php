@@ -4,6 +4,11 @@
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-3.svg" alt="Illustration">
             </figure>
 
+            <figure class="graphics graphics--section3-2">
+                <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-7.png" alt="Illustration">
+            </figure>
+
+
             <div class="section3 grid-1280 d-flex d-jcsb d-wrap">
 
                 <div class="title mb-8r">
@@ -24,14 +29,14 @@
                     <p class="paragraph">Ihre Vorteile:</p>
 
                     <ul class="unordered-list">
-                        <li class="unordered-list__item">Keine unangenehme Geruchsbelästigung mehr</li>
-                        <li class="unordered-list__item">Kein Ungeziefer mehr wie Maden, Fliegen, Sporen und Pilze</li>
-                        <li class="unordered-list__item">Einsparung von eigenem Reinigungswasser</li>
-                        <li class="unordered-list__item">Gleichzeitige Reinigung der Mülltonnen von Innen und Außen</li>
-                        <li class="unordered-list__item">Keine zusätzliche Arbeit für Sie</li>
-                        <li class="unordered-list__item">Vermeidung von Gesundheitsgefahren bei eigener Reinigung</li>
-                        <li class="unordered-list__item">Unsere Verträge sind jederzeit mit einer Kündigungsfrist von 4 Wochen kündbar. Somit können Sie ohne Risiko unseren Service auf die Probe stellen.</li>
-                        <li class="unordered-list__item">Unsere Leistungen sind für Sie als haushaltsnahe Dienstleistungen steuerlich absetzbar</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Keine unangenehme Geruchsbelästigung mehr</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Kein Ungeziefer mehr wie Maden, Fliegen, Sporen und Pilze</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Einsparung von eigenem Reinigungswasser</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Gleichzeitige Reinigung der Mülltonnen von Innen und Außen</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Keine zusätzliche Arbeit für Sie</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Vermeidung von Gesundheitsgefahren bei eigener Reinigung</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Unsere Verträge sind jederzeit mit einer Kündigungsfrist von 4 Wochen kündbar. Somit können Sie ohne Risiko unseren Service auf die Probe stellen.</li>
+                        <li class="unordered-list__item unordered-list__item--gap">Unsere Leistungen sind für Sie als haushaltsnahe Dienstleistungen steuerlich absetzbar</li>
                     </ul>
 
                 </div>

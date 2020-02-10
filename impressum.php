@@ -1,9 +1,8 @@
 <?php 
     include "inc/config.php";
 
-    $pageTitle = "impressum";
-    $pageTitleLong = "Impressum";
-    $footerImg = "frische-tonne-footer-background.svg"
+    $pageTitle = "Impressum";
+    $pageTitleShort = "impressum";
 
 ?>
 
@@ -37,7 +36,7 @@
                 <p>Steuernummer: Liegt noch nicht vor</p>
                 <p>Gläubiger ID DE 04 Z 1 Z 0000721480</p>
  
-                <p>Geschäftsführer: Melanie Heun-Sass und Michael Blecker</p>
+                <p>Geschäftsführer: Melanie Heun-Sass</p>
             
         </div>
 

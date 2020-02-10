@@ -1,9 +1,8 @@
 <?php 
     include "inc/config.php";
 
-    $pageTitle = "datenschutz";
-    $pageTitleLong = "Datenschutz";
-    $footerImg = "frische-tonne-footer-background.svg"
+    $pageTitle = "Datenschutz";
+    $pageTitleShort = "datenschutz";
 
 ?>
 
@@ -19,7 +18,7 @@
 
         <div class="law">
 
-            <div class="law__content">
+            <div class="law__content law__content--datenschutz">
 
                 <p>Liebe Kunden und Interessenten,</p>
 
@@ -32,9 +31,9 @@
                 <h3>EINWILLIGUNGERKLÄRUNG DS-GVO</h3>
 
                 <p>Falls Sie noch Fragen haben sollten, könne  Sie sich gerne telefonisch unter der</p>
-                <p>Telefonnummer <a href="tel:004915202730706">01520 - 2730706</a></p>
-                <p>oder</p>
-                <p>per Email an <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></p>
+                <p>Telefonnummer <a href="tel:004915202730706">01520 - 2730706</a><br>
+                oder<br>
+                per Email an <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></per>
  
  
                 <p>Steuernummer: Liegt noch nicht vor</p>

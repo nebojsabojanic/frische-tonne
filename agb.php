@@ -1,9 +1,8 @@
 <?php 
     include "inc/config.php";
 
-    $pageTitle = "agb";
-    $pageTitleLong = "Allgemeine Geschäftsbedingungen";
-    $footerImg = "frische-tonne-footer-background.svg"
+    $pageTitle = "Allgemeine Geschäftsbedingungen";
+    $pageTitleShort = "agb";
 
 ?>
 

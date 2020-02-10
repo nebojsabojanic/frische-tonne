@@ -1,8 +1,7 @@
 <?php 
     include "inc/config.php";
 
-    $pageTitle = "front-page";
-    $footerImg = "frische-tonne-footer-background.svg"
+    $pageTitle = "Startseite";
 
 ?>
 

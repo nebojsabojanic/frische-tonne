@@ -1,4 +1,249 @@
-// Grid
+/*=============================================
+=           0. General                    =
+=============================================*/
+html {
+    font-size: 10px;
+}
+  
+body {
+    color: $text-color;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+  
+address {
+    font-style: normal;
+    margin: 3rem 0 6rem;
+}
+  
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+figure {
+    margin: 0;}
+
+a {
+    color: $alt-text-color;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ol {
+    margin: 0 0 1.5em;
+    padding: 0;
+    counter-reset: item;
+
+    & > li {
+        margin: 0;
+        list-style-type: none;
+        counter-increment: item;
+
+        &::before {
+            display: inline-block;
+            width: 1em;
+            padding-right: 0.5em;
+            font-weight: bold;
+            content: counter(item) ".";
+            position: absolute;
+            left: 0;
+            font-size: 2rem;
+        }
+    }
+}
+
+.column {
+    width: calc(50% - 2rem);
+}
+  
+.title {
+    color: $alt-text-color;
+    line-height: 1.3;
+    position: relative;
+    width: 100%;
+
+    h2 {
+        display: block;
+        font-weight: 600;
+        font-size: 3.5rem;
+    }
+
+    &__subtitle {
+        color: $text-color;
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding-left: 1.5rem;
+        position: relative;
+        text-transform: uppercase;
+
+        &::before {
+            content: "";
+            background-color: $primary-green;
+            border-radius: 50%;
+            height: 5px;
+            left: 0;
+            position: absolute;
+            top: 0.5rem;
+            width:5px;
+        }
+    } // End: __subtitle
+  
+    &__main {
+        font-size: 4.5rem;
+        font-weight: 600;
+        letter-spacing: 0.025rem;
+        margin-top: 1rem;
+    }
+  
+    &--blue {
+        color: $primary-blue;
+    }
+    
+    &--green {
+        color: $primary-green;
+    }
+  
+    &--white {
+        color: $alt-text-color;
+        &::before {
+            color: $alt-text-color;
+        }
+    }
+  
+    &--underline {
+        &::before {
+            background-color: $primary-green;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            bottom: -2rem;
+            content: '';
+            height: 0.5rem;
+            //left: 0;
+            position: absolute;
+            width: 8rem;
+        }
+    }
+
+} // End: .title
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+}
+
+.paragraph--big {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.unordered-list {
+    list-style-type: none;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+
+    .unordered-list__item {
+        display: inline-block;
+        font-size: 1.6rem;
+        line-height: 1.8;
+        padding-left: 1.5rem;
+        position: relative;
+
+        &::before {
+            content: "";
+            background-color: $primary-green;
+            border-radius: 50%;
+            height: 5px;
+            left: 0;
+            position: absolute;
+            top: 1.2rem;
+            width:5px;
+        }
+
+        &--gap {
+            margin-bottom: 3rem;
+        }
+
+        &.item--basic {
+            margin-left: 2rem;
+
+            &::before {
+                background-color: $text-color;
+            }
+        }
+    }
+}
+
+.button {
+    display: inline-block;
+
+    a {
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        color: $alt-text-color;
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 0.112rem;
+        line-height: 1.2;
+        padding: 2rem 4rem;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &--blue {
+        a {
+            background-color: $primary-blue;
+        }
+    }
+
+    &--green {
+        a {
+            background-color: $primary-green;
+        }
+    }
+
+    &--white {
+        a {
+            background-color: $alt-text-color;
+            color: $primary-blue;
+        }
+    }
+
+    &--header-phone {
+        margin-right: 10rem;
+    }
+
+}
+@include desktop {
+
+    html {
+        font-size:9px;
+    }
+
+}
+
+
+/* #####
+    Grid
+##### */
 .grid-5,
 .grid-10,
 .grid-15,
@@ -184,17 +429,6 @@
 }
 
 
-// General
-h1,
-h2,
-h3 {
-    margin: 0;
-}
 
-figure {
-    margin: 0;}
 
-a {
-    color: $alt-text-color;
-    text-decoration: none;
-}
+

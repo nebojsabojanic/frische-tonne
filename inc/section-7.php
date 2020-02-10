@@ -1,4 +1,4 @@
-        <section id="preise" class="section section-bg-sky-blue section7-wrap">
+        <section id="preise" class="section section-bg-light-blue section7-wrap">
 
             <figure class="graphics graphics--section7">
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-6.svg" alt="Illustration">

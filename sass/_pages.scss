@@ -19,222 +19,6 @@
 -------------------------------------------------------------------*/
 
 
-/*=============================================
-=           0. General                    =
-=============================================*/
-html {
-  font-size: 10px;
-}
-
-body {
-  color: $text-color;
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-}
-
-address {
-  font-style: normal;
-  margin: 3rem 0 6rem;
-}
-
-p {
-  margin: 0;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-}
-
-ol {
-  margin: 0 0 1.5em;
-  padding: 0;
-  counter-reset: item;
-
-  & > li {
-    margin: 0;
-    list-style-type: none;
-    counter-increment: item;
-
-    &::before {
-      display: inline-block;
-      width: 1em;
-      padding-right: 0.5em;
-      font-weight: bold;
-      content: counter(item) ".";
-      position: absolute;
-      left: 0;
-      font-size: 2rem;
-    }
-  }
-}
-
-.column {
-  width: calc(50% - 2rem);
-}
-
-.title {
-  color: $alt-text-color;
-  line-height: 1.3;
-  position: relative;
-  width: 100%;
-
-  h2 {
-    display: block;
-    font-weight: 500;
-    font-size: 4rem;
-  }
-
-  &__subtitle {
-    color: $text-color;
-    font-size: 1.6rem;
-    font-weight: 600;
-    padding-left: 1.5rem;
-    position: relative;
-    text-transform: uppercase;    
-
-    &::before {
-      content: "";
-      background-color: $primary-green;
-      border-radius: 50%;
-      height: 5px;
-      left: 0;
-      position: absolute;
-      top: 0.5rem;
-      width:5px;
-    }
-  } // End: __subtitle
-
-  &__main {
-    font-size: 5rem;
-    letter-spacing: 0.125rem;
-  }
-
-  &--blue {
-    color: $primary-blue;
-  }
-  
-  &--green {
-    color: $primary-green;
-  }
-
-  &--white {
-    color: $alt-text-color;
-    &::before {
-      color: $alt-text-color;
-    }
-  }
-
-  &--underline {
-    &::before {
-      background-color: $primary-green;
-      border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      -o-border-radius: 5px;
-      bottom: -2rem;
-      content: '';
-      height: 0.5rem;
-      //left: 0;
-      position: absolute;
-      width: 8rem;
-    }
-  }
-
-} // End: .title
-
-.paragraph {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.8;
-  margin-bottom: 3rem;
-}
-
-.paragraph--big {
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.unordered-list {
-  list-style-type: none;
-  margin-top: 0.5rem;
-  padding-left: 1rem;
-  
-  .unordered-list__item {
-    display: inline-block;
-    font-size: 1.6rem;
-    line-height: 1.8;
-    padding-left: 1.5rem;
-    position: relative;
-
-    &::before {
-      content: "";
-      background-color: $primary-green;
-      border-radius: 50%;
-      height: 5px;
-      left: 0;
-      position: absolute;
-      top: 1.2rem;
-      width:5px;
-    }
-
-    &.item--basic {
-      margin-left: 2rem;
-
-      &::before {
-        background-color: $text-color;
-      }
-    }
-  }
-}
-
-.button {
-  display: inline-block;
-
-  a {
-    border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-    color: $alt-text-color;
-    display: block;
-    font-size: 1.6rem;
-    letter-spacing: 0.112rem;
-    line-height: 1.2;
-    padding: 2rem 4rem;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-
-  &--blue {
-    a {
-      background-color: $primary-blue;
-    }
-  }
-
-  &--green {
-    a {
-      background-color: $primary-green;
-    }
-  }
-
-  &--white {
-    a {
-      background-color: $alt-text-color;
-      color: $primary-blue;
-    }
-  }
-
-  &--header-phone {
-    margin-right: 10rem;
-  }
-
-}
-
-
-
 
 /*=============================================
 =           1. Header                    =
@@ -243,6 +27,11 @@ ol {
 .header {
   &--alt {
     margin-bottom: 7rem;
+
+    .logo {
+      padding-right: 0;
+      text-align: center;
+    }
   }
 
   &__content {
@@ -326,6 +115,10 @@ ol {
   background-color: $sky-blue;
 }
 
+.section-bg-light-blue {
+  background-color: $light-blue;
+}
+
 .section--blue-gradient {
   @include gradient(left, $gradient);
 }
@@ -333,6 +126,24 @@ ol {
 .graphics {
   z-index: 0;
 }
+
+@include desktop {
+
+  .section {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+  }
+
+  .graphics {
+      img {
+          width: 70%;
+      }
+  }
+
+}
+
+
+
 
 
 /*=============================================
@@ -389,7 +200,7 @@ ol {
   color: $alt-text-color;
 
   .button {
-    margin-top: 65px;
+    margin-top: 3.8rem;
   }
 }
 
@@ -409,6 +220,20 @@ ol {
   top: 0;
 }
 
+.graphics--section3-2 {
+  bottom: -0.3rem;
+  left: 26.2rem;
+  margin: auto;
+  position: absolute;
+}
+
+@include desktop {
+
+  .graphics--section3 {
+    text-align: right;
+  }
+
+}
 
 
 
@@ -435,6 +260,8 @@ ol {
     figcaption {
       color: $primary-blue;
       font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.07rem;
       margin-top: 30px;
       text-transform: uppercase;
     }
@@ -515,7 +342,8 @@ ol {
     padding: 2.5rem 4rem;
 
     .prices__price {
-      font-size: 6rem;
+      font-size: 5rem;
+      font-weight: 600;
       letter-spacing: 0.42rem;
       line-height: 1.2;
       margin: 0;
@@ -539,18 +367,34 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 17rem;
-    padding: 2.5rem 4rem;
+    min-height: 12rem;
+    padding: 1rem 3rem;
 
     .unordered-list {
-      margin: 0;
+      margin: 0 auto;
       padding: 0;
+      text-align: left;
+      width: 90%;
 
       .unordered-list__item {
-        font-size: 2rem;
+        font-size: 1.6rem;
+
+        &::before {
+          top: 1rem;
+        }
       }
     }
   }
+}
+
+
+
+@include desktop {
+
+  .graphics--section7 {
+    text-align: right;
+  }
+
 }
 
 
@@ -605,6 +449,12 @@ ol {
     p {
       margin-bottom: 1rem;
     }
+
+    &--datenschutz {
+      p {
+        margin-bottom: 5rem;
+      }
+    }
   }
 }
 
@@ -620,7 +470,7 @@ ol {
   position: relative;
 
   &--home {
-    background-color: $sky-blue;
+    background-color: $light-blue;
   }
 
   img {
@@ -642,8 +492,8 @@ ol {
 .footer__copyrights {
   p {
     color: $sky-blue;
-    font-size: 1.6rem;
-    letter-spacing: 0.112rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.07rem;
   }
 }
 

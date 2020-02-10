@@ -4,7 +4,7 @@
                 
                 <div class="column">
 
-                    <div class="title mb-8r">
+                    <div class="title mb-4r">
                         <span class="title__subtitle">Über uns</span>
                         <h1 class="title__main title--green">Die Frische Tonne GmbH</h1>
                     </div>
@@ -27,7 +27,7 @@
                     Wiesbaden – Taunusstein – Bad Schwalbach – Idstein – Niedernhausen Hünstetten - Hohenstein, sowie Firmen, öffentliche Gebäude und auf Anfrage.</p>
 
                     <div class="button button--blue">
-                        <a href="">Bestellformular herunterladen</a>
+                        <a href="<?php echo BASEURL; ?>/uploads/Bestellformular_Frische-Tonne_2020.pdf">Bestellformular herunterladen</a>
                     </div>
 
                 </div>

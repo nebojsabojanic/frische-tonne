@@ -1,4 +1,7 @@
-/* Menu - Hamburger */
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####
+    Menu - Hamburger
+##### ##### ##### ##### ##### ##### ##### ##### ##### ##### */
+
 const hamburgerBtn  = document.querySelector('.header__hamburger');
 const menuBtn    	= document.querySelector('.menu-btn');
 const hamburger 	= document.querySelector('.menu-btn__burger');
@@ -47,23 +50,6 @@ function toggleMenu(){
     }
 }
 
-
-/* Close menu by clicking on a menu item */
-function closeMenu() {
-    $('.nav').removeClass('open');
-    $('body').removeClass('disable__scroll');
-    $('.menu-nav').removeClass('open');
-    $('.menu-btn__burger').removeClass('open');
-    overlay.classList.remove('open');
-    bodyClass.classList.remove('oh');
-
-
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    },900);
-    return false;
-}
-
 /* Close menu by clicking anywhere on overlay */
 function closeOverlay() {
     hamburgerBtn.classList.remove('open');
@@ -101,10 +87,27 @@ document.onkeydown = function(evt) {
 
 
 
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####
+    Custom Strahinja's Smooth scroll
+##### ##### ##### ##### ##### ##### ##### ##### ##### ##### */
 
-/* Smooth scroll */
-document.addEventListener("DOMContentLoaded", function() {
-    ScrollOut({  
-    	once: false
+$( ".menu-item a" ).each(function(index) {
+    $(this).on("click", function(){
+        hamburgerBtn.classList.remove('open');
+        hamburger.classList.remove('open');
+        navItems.forEach(item => item.classList.remove('open'));
+        nav.classList.remove('open');
+        menuNav.classList.remove('open');
+        overlay.classList.remove('open');
+
+        bodyClass.classList.remove('disable__scroll');
+        bodyClass.classList.remove('oh');
+
+        showMenu = false;
+
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        },900);
+        return false;
     });
 });
