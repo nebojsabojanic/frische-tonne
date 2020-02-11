@@ -39,7 +39,7 @@
                 <p class="paragraph">Steuernummer: Liegt noch nicht vor</p>
                 <p class="paragraph">Gläubiger ID DE 04 Z 1 Z 0000721480</p>
  
-                <p class="paragraph">Geschäftsführer: Melanie Heun-Sass und Michael Blecker</p>
+                <p class="paragraph">Geschäftsführer: Melanie Heun-Sass</p>
             
             </div><!-- end: law__content -->
 

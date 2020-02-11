@@ -7,7 +7,6 @@
 
 <?php include "inc/header-home.php"; ?>
 
-
     <main class="content">
 
 
