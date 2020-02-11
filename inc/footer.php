@@ -27,5 +27,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo BASEURL; ?>/assets/js/app.js"></script>
 
+<!-- Cookie Law -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+    window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+        "background": "#326590",
+        "text": "#ffffff"
+        },
+        "button": {
+        "background": "#98cb55",
+        "text": "#ffffff"
+        }
+    },
+    "theme": "classic",
+    "content": {
+        "message": "Wir verwenden Cookies auf unserer Webseite, damit Sie alle vorgesehenen Funktionen gut und benutzerfreundlich nutzen können. Wenn Sie auf dieser Seite weitersurfen, stimmen Sie der Cookienutzung zu.",
+        "dismiss": "Fortfahren",
+        "link": "Weitere Informationen",
+        "href": "https://www.frische-tonne.de/datenschutz.php"
+    }
+    });
+</script>
+
 </body>
 </html>

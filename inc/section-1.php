@@ -27,7 +27,7 @@
                     Wiesbaden – Taunusstein – Bad Schwalbach – Idstein – Niedernhausen Hünstetten - Hohenstein, sowie Firmen, öffentliche Gebäude und auf Anfrage.</p>
 
                     <div class="button button--blue">
-                        <a href="<?php echo BASEURL; ?>/uploads/Bestellformular_Frische-Tonne_2020.pdf">Bestellformular herunterladen</a>
+                        <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank">Bestellformular herunterladen</a>
                     </div>
 
                 </div>

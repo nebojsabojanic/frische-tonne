@@ -13,7 +13,7 @@
 
 		<ul class="main-nav">
 			<li class="menu-item">
-				<a href="#uber-uns">Über uns</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#uber-uns">Über uns</a>
 			</li>
 			<li class="menu-item">
 				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#die-mulltonnenreinigung">Die Mülltonnenreinigung</a>

@@ -118,7 +118,7 @@
                 </div><!-- End: .prices -->
 
                 <div class="button button--blue">
-                    <a href="">Bestellformular herunterladen</a>
+                    <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank">Bestellformular herunterladen</a>
                 </div>
 
             </div><!-- End: section7 -->

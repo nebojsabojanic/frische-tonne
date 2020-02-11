@@ -37,7 +37,7 @@
                 <div class="column">
 
                     <div class="button button--green">
-                        <a href="">Bestellformular herunterladen</a>
+                        <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank">Bestellformular herunterladen</a>
                     </div>
 
                 </div>

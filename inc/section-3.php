@@ -24,7 +24,7 @@
 
                 </div>
 
-                <div class="column">
+                <!-- <div class="column">
 
                     <p class="paragraph">Ihre Vorteile:</p>
 
@@ -39,7 +39,7 @@
                         <li class="unordered-list__item unordered-list__item--gap">Unsere Leistungen sind für Sie als haushaltsnahe Dienstleistungen steuerlich absetzbar</li>
                     </ul>
 
-                </div>
+                </div> -->
 
             </div><!-- End: section3 -->
 

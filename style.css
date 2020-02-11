@@ -797,7 +797,6 @@ ol {
       transform: rotate(45deg) translate(6px, 6px);
       background: #fff; }
     .menu-btn__burger.open::after {
-      width: 28px;
       -webkit-transform: rotate(-45deg) translate(5px, -6px);
       transform: rotate(-45deg) translate(5px, -6px);
       background: #fff;

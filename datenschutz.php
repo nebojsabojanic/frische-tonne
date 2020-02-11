@@ -13,7 +13,7 @@
 
         <div class="title">
             <span class="title__subtitle">Datenschutz</span>
-            <h1 class="title--blue">Frische Tonne GmbH</h1>
+            <h2 class="title--blue">Frische Tonne GmbH</h2>
         </div>
 
         <div class="law">
