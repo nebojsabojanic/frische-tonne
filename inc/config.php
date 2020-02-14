@@ -9,5 +9,5 @@
     // Background Image for footer
     $footerImg   = "frische-tonne-footer-background.svg";
     // PDF to download
-    $pdf         = BASEURL . "/uploads/Bestellformular_Frische-Tonne_2020.pdf";
-    $pdfTitle    = "Bestellformular_Frische-Tonne_2020.pdf (491KB)";
+    $pdf         = BASEURL . "/uploads/Bestellformular_Frische-Tonne_2020_v4.pdf";
+    $pdfTitle    = "Bestellformular_Frische-Tonne_2020.pdf (536KB)";

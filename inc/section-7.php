@@ -17,6 +17,7 @@
                         <div class="prices__top">
                             <p class="prices__price">
                                 €5,95 <span>optimal paket</span>
+                                <span>Paket Gesamtpreis € 154,70</span>
                             </p>
                         </div>
 
@@ -34,6 +35,7 @@
                         <div class="prices__top">
                             <p class="prices__price">
                                 €6,95 <span>individual paket</span>
+                                <span>Paket Gesamtpreis € 139,00</span>
                             </p>
                         </div>
 
@@ -52,6 +54,7 @@
                         <div class="prices__top">
                             <p class="prices__price">
                                 €9,00 <span>intervall paket IV</span>
+                                <span>Paket Gesamtpreis € 36,00</span>
                             </p>
                         </div>
 
@@ -69,6 +72,7 @@
                         <div class="prices__top">
                             <p class="prices__price">
                                 €8,50 <span>intervall paket vi</span>
+                                <span>Paket Gesamtpreis € 51,00</span>
                             </p>
                         </div>
 
@@ -86,6 +90,7 @@
                         <div class="prices__top">
                             <p class="prices__price">
                                 €15,00 <span>einmalige reiningung</span>
+                                <span>Paket Gesamtpreis € 15,00</span>
                             </p>
                         </div>
 
@@ -102,6 +107,7 @@
                         <div class="prices__top">
                             <p class="prices__price">
                                 €5,00 <span>Sommer bio plus</span>
+                                <span>Paket Gesamtpreis € 55,00</span>
                             </p>
                         </div>
 
@@ -114,6 +120,8 @@
                         </div>
 
                     </div>
+                    
+                    <p class="paragraph">* Pro Tonnenleerung inkl. MwSt. und An-/Abfahrt</p>
 
                 </div><!-- End: .prices -->
 

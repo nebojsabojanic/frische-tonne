@@ -13,19 +13,19 @@
 
 		<ul class="main-nav">
 			<li class="menu-item">
-				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#uber-uns">Über uns</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#uber-uns">Über uns</a>
 			</li>
 			<li class="menu-item">
-				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#die-mulltonnenreinigung">Die Mülltonnenreinigung</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#die-mulltonnenreinigung">Die Mülltonnenreinigung</a>
 			</li>
 			<li class="menu-item">
-				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#immobilienverwaltungen">Die Mülltonnenreinigung für Immobilienverwaltungen</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#immobilienverwaltungen">Die Mülltonnenreinigung für Immobilienverwaltungen</a>
 			</li>
 			<li class="menu-item">
-				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#vorteile">Vorteile der Mülltonnenreinigung</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#vorteile">Vorteile der Mülltonnenreinigung</a>
 			</li>
 			<li class="menu-item">
-				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL . '/front.php';} ?>#preise">Preise</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#preise">Preise</a>
 			</li>
 		</ul>
 

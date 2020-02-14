@@ -482,6 +482,8 @@ ol {
   font-size: 2rem; }
   .location .location__pin .unordered-list__item::before {
     content: none; }
+  .location .location__pin .unordered-list__item a {
+    color: #333333; }
 
 /*=============================================
 =           2.2 Section 2                    =

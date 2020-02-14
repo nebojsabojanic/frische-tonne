@@ -176,6 +176,10 @@
       &::before {
         content: none;
       }
+
+      a {
+        color: $text-color;
+      }
     }
   }
 }
