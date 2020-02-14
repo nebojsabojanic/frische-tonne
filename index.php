@@ -1,64 +1,37 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
+<?php 
+    include "inc/config.php";
 
-        <meta name="description" content="">
-	    <meta name="author" content="Mediavuk d.o.o">
-	    <meta name="viewport" content="initial-scale=1.0,width=device-width"/>
+    $pageTitle = "Startseite";
 
-        <title>Frische Tonne</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- <script src="js/main.js"></script> -->
+?>
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+<?php include "inc/header-home.php"; ?>
+
+    <main class="content">
 
 
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/image/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="assets/image/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-
-		<!-- Swiper Slider -->
-<!-- 		<link rel="stylesheet" href="js/node_modules/swiper/css/swiper.css"> -->
-		<!-- END: Swiper Slider -->
+        <?php include "inc/section-1.php"; ?>
 
 
-    </head>
-    <body>
-        
-	<div class="page"><!-- ============================= Page ============================= -->
+        <?php include "inc/section-2.php"; ?>
 
 
-
-        <div class="comming-soon grid-1060">
-            
-            <img src="assets/image/Frische-Tonne-logo.png" alt="">
-            <h1>Diese Webseite wird in Kürze online gehen.</h1>
-
-            <p class="bold-p">Frische Tonne GmbH</p>
-            <p>Im Maisel 3</p>
-            <p>65232 Taunusstein-Neuhof</p>
-
-            <a class="bold-p" href="tel:0152 - 02 73 07 06">0152 - 02 73 07 06</a>
-
-        </div>
+        <?php include "inc/section-3.php"; ?>
 
 
-
-    </div>
-    <!-- 
-            =============================
-        ============================= 
-                END: Page 
-        ============================= 
-        =============================
-    -->
+        <?php include "inc/section-4.php"; ?>
 
 
+        <?php include "inc/section-5.php"; ?>
 
-    </body>
-</html>
+
+        <?php include "inc/section-6.php"; ?>
+
+
+        <?php include "inc/section-7.php"; ?>
+
+
+    </main>
+
+
+<?php include "inc/footer.php"; ?>
