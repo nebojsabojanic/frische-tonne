@@ -9,7 +9,7 @@
 <?php include "inc/header-alt.php"; ?>
 
 
-    <main class="content grid-1280">
+    <main class="content content--alt grid-1280">
 
         <div class="title">
             <span class="title__subtitle">Datenschutz</span>

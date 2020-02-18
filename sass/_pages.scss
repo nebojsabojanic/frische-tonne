@@ -1,7 +1,6 @@
 /*------------------------------------------------------------------
 [Table of contents]
 
-0. General
 1. Header
 2. Page Home
   2.1 Section 1
@@ -31,17 +30,27 @@
     .logo {
       padding-right: 0;
       text-align: center;
+
+      img {
+        max-width: 50%;
+      }
     }
   }
 
   &__content {
     margin-bottom: 4rem;
   }
-}
 
-.header__cover {
-  img {
+  &__cover {
     width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    &--mobile {
+        display: none;
+    }
   }
 }
 
@@ -101,9 +110,13 @@
 =           2. Page Home                    =
 =============================================*/
 
-// .content {
-
-// }
+.content {
+  &--alt {
+    &.grid-1280 {
+      width: 96%;
+    }
+  }
+}
 
 .section {
   padding-bottom: 13rem;
@@ -170,7 +183,6 @@
 
   .location__pin {
     .unordered-list__item {
-      display: block;
       font-size: 2rem;
 
       &::before {
@@ -254,10 +266,16 @@
 
 .presentation-photos {
   margin: 13rem auto 1rem;
+  max-width: 100%;
   width: 75%;
 
   figure {
+    max-width: 49%;
     text-align: center;
+
+    img {
+      width: 100%;
+    }
 
     figcaption {
       color: $primary-blue;
@@ -315,14 +333,14 @@
 .prices {
   margin-bottom: 5rem;
 
-  .prices__block {
+  &__block {
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 3rem;
     width: calc(33.33333% - 2rem);
 
@@ -333,7 +351,7 @@
     }
   }
 
-  .prices__top {
+  &__top {
     background-color: $primary-green;
     border-radius: 2rem 2rem 0 0;
     -webkit-border-radius: 2rem 2rem 0 0;
@@ -359,7 +377,7 @@
     }
   }
 
-  .prices__bottom {
+  &__bottom {
     background-color: $alt-text-color;
     border-radius: 0 0 2rem 2rem;
     -webkit-border-radius: 0 0 2rem 2rem;
@@ -511,11 +529,15 @@
     background-color: $light-blue;
   }
 
-  img {
+  .footer__bg {
     margin-bottom: -2px;
     position: relative;
     width: 100%;
     z-index: 1;
+
+    &--mobile {
+      display: none;
+    }
   }
 
   .footer__content {

@@ -154,9 +154,9 @@
   left: 0;
   width: 100%;
   max-width: 60rem;
+  overflow-x: hidden;
   visibility: hidden;
-  z-index: 6;
-  overflow-x: hidden; }
+  z-index: 6;}
   .nav ul li {
     padding-bottom: 2rem; }
     .nav ul li a {
@@ -177,6 +177,8 @@
       .nav ul li a:hover {
         color: $hover-menu-items;
       }
+
+
   .nav.open {
     visibility: visible; }
   .nav .menu-nav {
@@ -255,6 +257,10 @@
   ul {
     li {
       margin-right: 2.5rem;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
 
       a {
         font-size: 1.4rem;

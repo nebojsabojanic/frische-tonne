@@ -82,7 +82,8 @@ ol {
   .title h2 {
     display: block;
     font-weight: 600;
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    margin-top: 1rem; }
   .title__subtitle {
     color: #333333;
     font-size: 1.6rem;
@@ -140,7 +141,6 @@ ol {
   margin-top: 0.5rem;
   padding-left: 1rem; }
   .unordered-list .unordered-list__item {
-    display: inline-block;
     font-size: 1.6rem;
     line-height: 1.8;
     padding-left: 1.5rem;
@@ -164,11 +164,11 @@ ol {
 .button {
   display: inline-block; }
   .button a {
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
     color: #FFFFFF;
     display: block;
     font-size: 1.6rem;
@@ -176,6 +176,7 @@ ol {
     letter-spacing: 0.112rem;
     line-height: 1.2;
     padding: 2rem 4rem;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none; }
   .button--blue a {
@@ -364,7 +365,6 @@ ol {
 /*------------------------------------------------------------------
 [Table of contents]
 
-0. General
 1. Header
 2. Page Home
   2.1 Section 1
@@ -388,11 +388,16 @@ ol {
   .header--alt .logo {
     padding-right: 0;
     text-align: center; }
+    .header--alt .logo img {
+      max-width: 50%; }
 .header__content {
   margin-bottom: 4rem; }
-
-.header__cover img {
+.header__cover {
   width: 100%; }
+  .header__cover img {
+    width: 100%; }
+  .header__cover--mobile {
+    display: none; }
 
 /* Alt pages header style */
 .message {
@@ -435,6 +440,9 @@ ol {
 /*=============================================
 =           2. Page Home                    =
 =============================================*/
+.content--alt.grid-1280 {
+  width: 96%; }
+
 .section {
   padding-bottom: 13rem;
   padding-top: 13rem;
@@ -478,7 +486,6 @@ ol {
   line-height: 1.7;
   font-size: 3rem; }
 .location .location__pin .unordered-list__item {
-  display: block;
   font-size: 2rem; }
   .location .location__pin .unordered-list__item::before {
     content: none; }
@@ -525,9 +532,13 @@ ol {
 =============================================*/
 .presentation-photos {
   margin: 13rem auto 1rem;
+  max-width: 100%;
   width: 75%; }
   .presentation-photos figure {
+    max-width: 49%;
     text-align: center; }
+    .presentation-photos figure img {
+      width: 100%; }
     .presentation-photos figure figcaption {
       color: #326590;
       font-size: 1.6rem;
@@ -562,7 +573,7 @@ ol {
 
 .prices {
   margin-bottom: 5rem; }
-  .prices .prices__block {
+  .prices__block {
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
@@ -572,9 +583,9 @@ ol {
     flex-direction: column;
     margin-bottom: 3rem;
     width: calc(33.33333% - 2rem); }
-    .prices .prices__block.active .prices__top {
+    .prices__block.active .prices__top {
       background-color: #5FA9E8; }
-  .prices .prices__top {
+  .prices__top {
     background-color: #98CB55;
     border-radius: 2rem 2rem 0 0;
     -webkit-border-radius: 2rem 2rem 0 0;
@@ -583,18 +594,18 @@ ol {
     -o-border-radius: 2rem 2rem 0 0;
     color: #FFFFFF;
     padding: 2.5rem 4rem; }
-    .prices .prices__top .prices__price {
+    .prices__top .prices__price {
       font-size: 5rem;
       font-weight: 600;
       letter-spacing: 0.42rem;
       line-height: 1.2;
       margin: 0; }
-      .prices .prices__top .prices__price span {
+      .prices__top .prices__price span {
         display: block;
         font-size: 1.6rem;
         letter-spacing: 0.112rem;
         text-transform: uppercase; }
-  .prices .prices__bottom {
+  .prices__bottom {
     background-color: #FFFFFF;
     border-radius: 0 0 2rem 2rem;
     -webkit-border-radius: 0 0 2rem 2rem;
@@ -606,14 +617,14 @@ ol {
     justify-content: center;
     min-height: 12rem;
     padding: 1rem 3rem; }
-    .prices .prices__bottom .unordered-list {
+    .prices__bottom .unordered-list {
       display: flex;
       flex-direction: column;
       justify-content: center;
       text-align: left; }
-      .prices .prices__bottom .unordered-list .unordered-list__item {
+      .prices__bottom .unordered-list .unordered-list__item {
         font-size: 1.6rem; }
-        .prices .prices__bottom .unordered-list .unordered-list__item::before {
+        .prices__bottom .unordered-list .unordered-list__item::before {
           top: 1rem; }
 
 @media screen and (max-width: 1366px) {
@@ -681,11 +692,13 @@ ol {
   position: relative; }
   .footer--home {
     background-color: #CCE0F2; }
-  .footer img {
+  .footer .footer__bg {
     margin-bottom: -2px;
     position: relative;
     width: 100%;
     z-index: 1; }
+    .footer .footer__bg--mobile {
+      display: none; }
   .footer .footer__content {
     bottom: 5.6rem;
     left: 0;
@@ -812,9 +825,9 @@ ol {
   left: 0;
   width: 100%;
   max-width: 60rem;
+  overflow-x: hidden;
   visibility: hidden;
-  z-index: 6;
-  overflow-x: hidden; }
+  z-index: 6; }
 
 .nav ul li {
   padding-bottom: 2rem; }
@@ -901,6 +914,8 @@ ol {
 
 .meta-nav ul li {
   margin-right: 2.5rem; }
+  .meta-nav ul li:last-of-type {
+    margin-right: 0; }
   .meta-nav ul li a {
     font-size: 1.4rem;
     font-weight: 600;
@@ -914,5 +929,178 @@ ol {
     -o-transition: 0.3s; }
     .meta-nav ul li a:hover {
       color: #CCE0F2; }
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+0. General
+1. Header
+2. Page Home
+  2.1 Section 1
+  2.2 Section 2
+  2.3 Section 3
+  2.4 Section 4
+  2.5 Section 5
+  2.6 Section 6
+  2.7 Section 7
+3. Alt Pages
+4. Footer
+
+-------------------------------------------------------------------*/
+/*=============================================
+=           0. General                    =
+=============================================*/
+@media screen and (max-width: 768px) {
+  .menu-btn--style {
+    left: 5rem;
+    top: 5rem; }
+
+  .nav {
+    max-width: 100%;
+    width: 100%; }
+    .nav .menu-nav {
+      padding-right: 0;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: start; }
+      .nav .menu-nav .main-nav {
+        padding-left: 10%;
+        padding-right: 10%; }
+
+  .title h2 {
+    font-size: 2.5rem; }
+  .title__main {
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+    margin-top: 1rem; }
+
+  .button a {
+    padding: 2rem 3rem; }
+
+  .paragraph {
+    width: 100%; } }
+/*=============================================
+=           1. Header                    =
+=============================================*/
+@media screen and (max-width: 990px) {
+  .header__cover-wrap .header__cover--desktop {
+    display: none; }
+  .header__cover-wrap .header__cover--mobile {
+    display: block; }
+  .header--alt {
+    padding: 0 2rem; } }
+@media screen and (max-width: 768px) {
+  .header__hamburger.open .menu-btn--style {
+    left: 10%; } }
+/*=============================================
+=           2. Page Home                    =
+=============================================*/
+@media screen and (max-width: 990px) {
+  .column {
+    width: 100%; }
+    .column:first-of-type {
+      margin-bottom: 5rem; } }
+/*=============================================
+=           2.1 Section 1                    =
+=============================================*/
+@media screen and (max-width: 990px) {
+  .section1 {
+    flex-direction: column; }
+    .section1 .logo {
+      padding-right: 0; }
+    .section1 .graphics {
+      margin-top: 0; } }
+/*=============================================
+=           2.2 Section 2                    =
+=============================================*/
+@media screen and (max-width: 1600px) {
+  .graphics--section2 {
+    display: none; } }
+@media screen and (max-width: 990px) {
+  .section2 {
+    flex-direction: column; } }
+/*=============================================
+=           2.3 Section 3                    =
+=============================================*/
+@media screen and (max-width: 1600px) {
+  .graphics--section3 {
+    display: none; }
+
+  .graphics--section3-2 {
+    display: none; } }
+/*=============================================
+=           2.4 Section 4                    =
+=============================================*/
+@media screen and (max-width: 990px) {
+  .section4 {
+    flex-direction: column; }
+    .section4 .grid-60 {
+      margin-bottom: 5rem;
+      width: initial; }
+    .section4 .grid-35 {
+      width: initial; } }
+/*=============================================
+=           2.5 Section 5                    =
+=============================================*/
+@media screen and (max-width: 990px) {
+  .section5 .graphics {
+    display: none; }
+
+  .presentation-photos {
+    margin-top: 8rem; } }
+@media screen and (max-width: 768px) {
+  .presentation-photos {
+    flex-direction: column; }
+    .presentation-photos figure {
+      margin: 0 auto 3rem; } }
+/*=============================================
+=           2.6 Section 6                    =
+=============================================*/
+@media screen and (max-width: 768px) {
+  .contact-phone {
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem; } }
+/*=============================================
+=           2.7 Section 7                    =
+=============================================*/
+@media screen and (max-width: 990px) {
+  .prices__block {
+    width: calc(50% - 1.5rem); }
+  .prices .prices__top .prices__price {
+    font-size: 4rem; } }
+@media screen and (max-width: 768px) {
+  .prices__block {
+    width: 100%; } }
+/*=============================================
+=           3. Alt Pages                    =
+=============================================*/
+@media screen and (max-width: 768px) {
+  .law__content--datenschutz p {
+    margin-bottom: 3rem; } }
+/*=============================================
+=           3. Footer                    =
+=============================================*/
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 5rem; }
+    .footer .footer__bg {
+      margin-bottom: -2px;
+      position: relative;
+      width: 100%;
+      z-index: 1; }
+      .footer .footer__bg--desktop {
+        display: none; }
+      .footer .footer__bg--mobile {
+        display: block; }
+    .footer .footer__content {
+      bottom: 1rem;
+      flex-direction: column;
+      text-align: center; }
+      .footer .footer__content .footer__menu {
+        margin-bottom: 1rem; }
+        .footer .footer__content .footer__menu ul {
+          padding-left: 2rem;
+          padding-right: 2rem; } }
 
 /*# sourceMappingURL=style.css.map */
