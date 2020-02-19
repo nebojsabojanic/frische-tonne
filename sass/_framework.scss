@@ -46,7 +46,8 @@ h3 {
 }
 
 figure {
-    margin: 0;}
+    margin: 0;
+}
 
 a {
     color: $alt-text-color;
@@ -95,13 +96,14 @@ ol {
         display: block;
         font-weight: 600;
         font-size: 3.5rem;
-        margin-top: 1rem;
     }
 
     &__subtitle {
         color: $text-color;
+        display: block;
         font-size: 1.6rem;
         font-weight: 600;
+        padding-bottom: 3rem;
         padding-left: 1.5rem;
         position: relative;
         text-transform: uppercase;
@@ -378,7 +380,7 @@ ol {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
 }
 
 .grid-1400 {
@@ -433,6 +435,7 @@ ol {
     text-align: center;
 }
 
+// Margin Bottom
 .mb-4r {
     margin-bottom: 4rem;
 }
@@ -445,6 +448,10 @@ ol {
     margin-bottom: 8rem;
 }
 
+// Margin Top
+.mt-6r {
+    margin-top: 6rem;
+}
 
 
 

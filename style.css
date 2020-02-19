@@ -82,12 +82,13 @@ ol {
   .title h2 {
     display: block;
     font-weight: 600;
-    font-size: 3.5rem;
-    margin-top: 1rem; }
+    font-size: 3.5rem; }
   .title__subtitle {
     color: #333333;
+    display: block;
     font-size: 1.6rem;
     font-weight: 600;
+    padding-bottom: 3rem;
     padding-left: 1.5rem;
     position: relative;
     text-transform: uppercase; }
@@ -306,7 +307,7 @@ ol {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; }
+  width: 90%; }
 
 .grid-1400 {
   max-width: 1400px;
@@ -362,6 +363,9 @@ ol {
 .mb-8r {
   margin-bottom: 8rem; }
 
+.mt-6r {
+  margin-top: 6rem; }
+
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -391,7 +395,8 @@ ol {
     .header--alt .logo img {
       max-width: 50%; }
 .header__content {
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  margin-top: 2rem; }
 .header__cover {
   width: 100%; }
   .header__cover img {
@@ -440,9 +445,6 @@ ol {
 /*=============================================
 =           2. Page Home                    =
 =============================================*/
-.content--alt.grid-1280 {
-  width: 96%; }
-
 .section {
   padding-bottom: 13rem;
   padding-top: 13rem;
@@ -527,6 +529,14 @@ ol {
 /*=============================================
 =           2.4 Section 4                    =
 =============================================*/
+.section4 .title__subtitle {
+  padding-left: 2.5rem; }
+  .section4 .title__subtitle::before {
+    background-color: #FFFFFF;
+    height: 1.5rem;
+    top: 0.4rem;
+    width: 1.5rem; }
+
 /*=============================================
 =           2.5 Section 5                    =
 =============================================*/
@@ -535,7 +545,6 @@ ol {
   max-width: 100%;
   width: 75%; }
   .presentation-photos figure {
-    max-width: 49%;
     text-align: center; }
     .presentation-photos figure img {
       width: 100%; }
@@ -653,12 +662,15 @@ ol {
     padding-left: 3rem; }
   .law__content {
     font-size: 1.6rem; }
+    .law__content h3 {
+      margin-bottom: 5rem;
+      text-transform: uppercase; }
     .law__content a {
       color: #98CB55; }
     .law__content p {
       margin-bottom: 1rem; }
     .law__content--datenschutz p {
-      margin-bottom: 5rem; }
+      margin-bottom: 4rem; }
 
 /*=============================================
 =           4. Footer                    =
@@ -697,6 +709,8 @@ ol {
     position: relative;
     width: 100%;
     z-index: 1; }
+    .footer .footer__bg--tablet {
+      display: none; }
     .footer .footer__bg--mobile {
       display: none; }
   .footer .footer__content {
@@ -930,6 +944,10 @@ ol {
     .meta-nav ul li a:hover {
       color: #CCE0F2; }
 
+@media screen and (max-width: 600px) {
+  .meta-nav ul li a {
+    padding: 2rem 0;
+    display: block; } }
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -980,6 +998,10 @@ ol {
 
   .paragraph {
     width: 100%; } }
+@media screen and (max-width: 600px) {
+  .section {
+    padding-bottom: 8rem;
+    padding-top: 8rem; } }
 /*=============================================
 =           1. Header                    =
 =============================================*/
@@ -987,12 +1009,13 @@ ol {
   .header__cover-wrap .header__cover--desktop {
     display: none; }
   .header__cover-wrap .header__cover--mobile {
-    display: block; }
-  .header--alt {
-    padding: 0 2rem; } }
+    display: block; } }
 @media screen and (max-width: 768px) {
   .header__hamburger.open .menu-btn--style {
     left: 10%; } }
+@media screen and (max-width: 600px) {
+  .header__hamburger .menu-btn--style {
+    left: 5%; } }
 /*=============================================
 =           2. Page Home                    =
 =============================================*/
@@ -1011,6 +1034,9 @@ ol {
       padding-right: 0; }
     .section1 .graphics {
       margin-top: 0; } }
+@media screen and (max-width: 600px) {
+  .section1 .logo img {
+    width: 50%; } }
 /*=============================================
 =           2.2 Section 2                    =
 =============================================*/
@@ -1091,7 +1117,7 @@ ol {
       z-index: 1; }
       .footer .footer__bg--desktop {
         display: none; }
-      .footer .footer__bg--mobile {
+      .footer .footer__bg--tablet {
         display: block; }
     .footer .footer__content {
       bottom: 1rem;
@@ -1102,5 +1128,10 @@ ol {
         .footer .footer__content .footer__menu ul {
           padding-left: 2rem;
           padding-right: 2rem; } }
+@media screen and (max-width: 600px) {
+  .footer .footer__bg--tablet {
+    display: none; }
+  .footer .footer__bg--mobile {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

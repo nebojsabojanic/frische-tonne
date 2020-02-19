@@ -72,6 +72,13 @@
 
 } // End: tablet
 
+@include mobile {
+    .section {
+        padding-bottom: 8rem;
+        padding-top: 8rem;
+    }
+} // End: mobile
+
 
 
 
@@ -94,10 +101,6 @@
                 }
             }
         }
-
-        &--alt {
-            padding: 0 2rem;
-        }
     }
 
 } // End: laptop
@@ -115,6 +118,18 @@
     }
 
 } // End: tablet
+
+@include mobile {
+
+    .header {
+        &__hamburger {
+            .menu-btn--style {
+                left: 5%;
+            }
+        }
+    }
+
+} // End: mobile
 
 
 
@@ -159,6 +174,18 @@
     }
 
 } // End: laptop
+
+@include mobile {
+
+    .section1 {
+        .logo {
+            img {
+                width: 50%;
+            }
+        }
+    }
+
+} // End: mobile
 
 
 /*=============================================
@@ -352,8 +379,8 @@
             &--desktop {
                 display: none;
             }
-        
-            &--mobile {
+
+            &--tablet {
                 display: block;
             }
         }
@@ -372,6 +399,22 @@
                 }
             }
         }
-    }
+    } // end: footer
 
 } // End: tablet
+
+@include mobile {
+
+    .footer {
+        .footer__bg {
+            &--tablet {
+                display: none;
+            }
+        
+            &--mobile {
+                display: block;
+            }
+        }
+    } // end: footer
+
+} // End: mobile

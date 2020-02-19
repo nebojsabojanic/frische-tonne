@@ -30,16 +30,11 @@
 
                 <h3>EINWILLIGUNGERKLÄRUNG DS-GVO</h3>
 
-                <p class="paragraph">Falls Sie noch Fragen haben sollten, könne  Sie sich gerne telefonisch unter der</p>
-                <p class="paragraph">Telefonnummer <a href="tel:004915202730706">01520 - 2730706</a><br>
+                <p class="paragraph">Falls Sie noch Fragen haben sollten, könne  Sie sich gerne telefonisch unter der<br>
+                Telefonnummer <a href="tel:004915202730706">01520 - 2730706</a><br>
                 oder<br>
-                per Email an <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></per>
- 
- 
-                <p class="paragraph">Steuernummer: Liegt noch nicht vor</p>
-                <p class="paragraph">Gläubiger ID DE 04 Z 1 Z 0000721480</p>
- 
-                <p class="paragraph">Geschäftsführer: Melanie Heun-Sass</p>
+                per Email an <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a><br>
+                an uns wenden.</p>
             
             </div><!-- end: law__content -->
 
