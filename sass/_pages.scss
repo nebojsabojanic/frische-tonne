@@ -207,7 +207,9 @@
   color: $alt-text-color;
 
   .button {
-    margin-top: 3.8rem;
+    &:first-of-type {
+      margin-top: 3.8rem;
+    }
   }
 }
 
@@ -329,12 +331,6 @@
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.section7 {
-  .button {
-    margin: 0 auto;
-  }
 }
 
 .prices {

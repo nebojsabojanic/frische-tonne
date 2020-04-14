@@ -32,7 +32,7 @@ body {
 
 address {
   font-style: normal;
-  margin: 3rem 0 6rem; }
+  margin: 3rem 0; }
 
 p {
   margin: 0; }
@@ -180,8 +180,11 @@ ol {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none; }
-  .button__wrap--row .button:first-of-type {
-    margin-right: 3.5rem; }
+  .button__wrap--row .button {
+    margin-left: 1.75rem;
+    margin-right: 1.75rem; }
+  .button:first-of-type {
+    margin-bottom: 3rem; }
   .button--blue a {
     background-color: #326590; }
   .button--green a {
@@ -506,7 +509,7 @@ ol {
 
 .section2 {
   color: #FFFFFF; }
-  .section2 .button {
+  .section2 .button:first-of-type {
     margin-top: 3.8rem; }
 
 /*=============================================
@@ -578,9 +581,6 @@ ol {
   position: absolute;
   right: 0;
   top: 0; }
-
-.section7 .button {
-  margin: 0 auto; }
 
 .prices {
   margin-bottom: 5rem; }
@@ -1063,10 +1063,10 @@ ol {
 @media screen and (max-width: 990px) {
   .section4 {
     flex-direction: column; }
-    .section4 .grid-60 {
+    .section4 .grid-55 {
       margin-bottom: 5rem;
       width: initial; }
-    .section4 .grid-35 {
+    .section4 .grid-45 {
       width: initial; } }
 /*=============================================
 =           2.5 Section 5                    =
