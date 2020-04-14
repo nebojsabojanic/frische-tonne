@@ -228,7 +228,17 @@ ol {
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
-}
+    }
+
+    &__wrap {
+        &--row {
+            .button {
+                &:first-of-type {
+                    margin-right: 3.5rem;
+                }
+            }
+        }
+    }
 
     &--blue {
         a {

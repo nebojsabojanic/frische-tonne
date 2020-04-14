@@ -13,9 +13,15 @@
 
                 <div class="grid-35">
 
-                    <div class="button button--white">
-                        <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank">Bestellformular herunterladen</a>
+                <div class="button__wrap">
+                    <div class="button button--green">
+                        <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank"><?php echo $pdfName; ?></a>
                     </div>
+
+                    <div class="button button--white">
+                        <a href="<?php echo $pdf2; ?>" title="<?php echo $pdfTitle2; ?>" target="_blank"><?php echo $pdfName2; ?></a>
+                    </div>
+                </div>
 
                 </div>
 

@@ -20,7 +20,7 @@
 
                 <div class="column mb-6r">
 
-                    <p class="paragraph">Und so wird’s gemacht: Unsere Reinigungsfahrzeuge sind mit einem großen Wassertank mit Heizanlage ausgestattet, wir bringen also das Reinigungswasser mit und entnehmen es nicht Ihrem Hausanschluss.</p>
+                    <p class="paragraph">Und so wird’s gemacht:<br> Unsere Reinigungsfahrzeuge sind mit einem großen Wassertank mit Heizanlage ausgestattet, wir bringen also das Reinigungswasser mit und entnehmen es nicht Ihrem Hausanschluss.</p>
                     <p class="paragraph">Die Mülltonnen werden von unserem Fahrzeug aufgenommen und per Hochdruck gereinigt. Das Schmutzwasser läuft über einen Filter in einen zweiten Tank und wird dort aufgefangen. Die herausgefilterten Feststoffe werden separiert und ebenso wie das Schmutzwasser, von uns später entsorgt.</p>
 
                 </div>
@@ -36,8 +36,14 @@
 
                 <div class="column">
 
-                    <div class="button button--green">
-                        <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank">Bestellformular herunterladen</a>
+                    <div class="button__wrap">
+                        <div class="button button--green">
+                            <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank"><?php echo $pdfName; ?></a>
+                        </div>
+
+                        <div class="button button--white">
+                            <a href="<?php echo $pdf2; ?>" title="<?php echo $pdfTitle2; ?>" target="_blank"><?php echo $pdfName2; ?></a>
+                        </div>
                     </div>
 
                 </div>

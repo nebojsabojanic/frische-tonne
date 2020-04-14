@@ -180,6 +180,8 @@ ol {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none; }
+  .button__wrap--row .button:first-of-type {
+    margin-right: 3.5rem; }
   .button--blue a {
     background-color: #326590; }
   .button--green a {
@@ -602,7 +604,7 @@ ol {
     -ms-border-radius: 2rem 2rem 0 0;
     -o-border-radius: 2rem 2rem 0 0;
     color: #FFFFFF;
-    padding: 2.5rem 4rem; }
+    padding: 6rem 4rem; }
     .prices__top .prices__price {
       font-size: 5rem;
       font-weight: 600;
@@ -611,7 +613,7 @@ ol {
       margin: 0; }
       .prices__top .prices__price span {
         display: block;
-        font-size: 1.6rem;
+        font-size: 2.2rem;
         letter-spacing: 0.112rem;
         text-transform: uppercase; }
   .prices__bottom {

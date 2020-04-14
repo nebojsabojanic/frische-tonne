@@ -16,8 +16,8 @@
 
                         <div class="prices__top">
                             <p class="prices__price">
-                                €5,95 <span>optimal paket</span>
-                                <span>Paket Gesamtpreis € 154,70</span>
+                                <span>optimal paket</span>
+                                <!-- <span>Paket Gesamtpreis € 154,70</span> -->
                             </p>
                         </div>
 
@@ -34,8 +34,8 @@
 
                         <div class="prices__top">
                             <p class="prices__price">
-                                €6,95 <span>individual paket</span>
-                                <span>Paket Gesamtpreis € 139,00</span>
+                                <span>individual paket</span>
+                                <!-- <span>Paket Gesamtpreis € 139,00</span> -->
                             </p>
                         </div>
 
@@ -53,8 +53,8 @@
 
                         <div class="prices__top">
                             <p class="prices__price">
-                                €9,00 <span>intervall paket IV</span>
-                                <span>Paket Gesamtpreis € 36,00</span>
+                                <span>intervall paket IV</span>
+                                <!-- <span>Paket Gesamtpreis € 36,00</span> -->
                             </p>
                         </div>
 
@@ -71,8 +71,8 @@
 
                         <div class="prices__top">
                             <p class="prices__price">
-                                €8,50 <span>intervall paket vi</span>
-                                <span>Paket Gesamtpreis € 51,00</span>
+                                <span>intervall paket vi</span>
+                                <!-- <span>Paket Gesamtpreis € 51,00</span> -->
                             </p>
                         </div>
 
@@ -89,8 +89,8 @@
 
                         <div class="prices__top">
                             <p class="prices__price">
-                                €15,00 <span>einmalige reiningung</span>
-                                <span>Paket Gesamtpreis € 15,00</span>
+                                <span>einmalige reiningung</span>
+                                <!-- <span>Paket Gesamtpreis € 15,00</span> -->
                             </p>
                         </div>
 
@@ -106,8 +106,8 @@
 
                         <div class="prices__top">
                             <p class="prices__price">
-                                €5,00 <span>Sommer bio plus</span>
-                                <span>Paket Gesamtpreis € 55,00</span>
+                                <span>Sommer bio plus</span>
+                                <!-- <span>Paket Gesamtpreis € 55,00</span> -->
                             </p>
                         </div>
 
@@ -125,8 +125,14 @@
 
                 </div><!-- End: .prices -->
 
-                <div class="button button--blue">
-                    <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank">Bestellformular herunterladen</a>
+                <div class="button__wrap button__wrap--row">
+                    <div class="button button--blue">
+                        <a href="<?php echo $pdf; ?>" title="<?php echo $pdfTitle; ?>" target="_blank"><?php echo $pdfName; ?></a>
+                    </div>
+
+                    <div class="button button--green">
+                        <a href="<?php echo $pdf2; ?>" title="<?php echo $pdfTitle2; ?>" target="_blank"><?php echo $pdfName2; ?></a>
+                    </div>
                 </div>
 
             </div><!-- End: section7 -->
