@@ -2,11 +2,11 @@
 
             <div class="section4 grid-1280 d-flex d-jcsb d-wrap d-aic">
 
-                <div class="grid-55">
+                <div class="grid-50">
 
                     <div class="title">
                         <span class="title--white title__subtitle">Bei uns erwartet Sie ein kundenfreundlicher Service.</span>
-                        <h2>Unsere Verträge laufen ohne Bindungen und sind innerhalb von 4 Wochen jederzeit kündbar. Überzeugen Sie sich selbst von uns.</h2>
+                        <h2>Unsere Reinigungspakete sind auf ein Jahr ausgelegt und sind danach jederzeit kündbar. Falls Sie mit unserer Leistung einmal unzufrieden sein sollten, bitte sprechen Sie uns an!</h2>
                     </div>
 
                 </div>

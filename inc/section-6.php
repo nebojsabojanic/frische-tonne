@@ -7,7 +7,7 @@
                 </div>
 
                 <div class="contact-phone">
-                    <a href="tel:015202730706"><i class="fas fa-phone"></i> 0152 - 02 73 07 06</a>
+                    <a href="tel:061289239215"><i class="fas fa-phone"></i> 06128 - 9239215</a>
                 </div>
 
             </div><!-- End: section6 -->

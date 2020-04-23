@@ -20,7 +20,7 @@
                             <li class="unordered-list__item"><strong>Frische Tonne GmbH</strong></li>
                             <li class="unordered-list__item">Im Maisel 3</li>
                             <li class="unordered-list__item">65232 Taunusstein-Neuhof</li>
-                            <li class="unordered-list__item">Tel: <a href="tel:015202730706">0152-02 73 0706</a></li>
+                            <li class="unordered-list__item">Tel: <a href="tel:061289239215">06128 - 9239215</a></li>
                             <li class="unordered-list__item"><a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></li>
                         </ul>
                     </address><!-- end: .location -->

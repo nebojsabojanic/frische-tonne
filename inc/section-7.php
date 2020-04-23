@@ -1,4 +1,4 @@
-        <section id="preise" class="section section-bg-light-blue section7-wrap">
+        <section id="pakete" class="section section-bg-light-blue section7-wrap">
 
             <figure class="graphics graphics--section7">
                 <img src="<?php echo BASEURL; ?>/img/frische-tonne-startseite-illustration-6.svg" alt="Illustration">
@@ -7,7 +7,7 @@
             <div class="section7 grid-1280 ta-center">
                 
                 <div class="title mb-8r">
-                    <h2 class="title--blue title--underline">Preise</h2>
+                    <h2 class="title--blue title--underline">Pakete</h2>
                 </div>
 
                 <div class="prices d-flex d-jcsb d-wrap">
@@ -120,8 +120,6 @@
                         </div>
 
                     </div>
-                    
-                    <p class="paragraph">* Pro Tonnenleerung inkl. MwSt. und An-/Abfahrt</p>
 
                 </div><!-- End: .prices -->
 

@@ -25,7 +25,7 @@
 				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#vorteile">Vorteile der Mülltonnenreinigung</a>
 			</li>
 			<li class="menu-item">
-				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#preise">Preise</a>
+				<a href="<?php if($pageTitle != "Startseite"){echo BASEURL;} ?>#pakete">Pakete</a>
 			</li>
 		</ul>
 
