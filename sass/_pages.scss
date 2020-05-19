@@ -55,6 +55,20 @@
   }
 }
 
+.home-slider {
+  position: relative;
+
+  .swiper-pagination {
+    bottom: -1rem!important;
+  }
+
+  .swiper-container-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: -1rem;
+  }
+}
+
 /* Alt pages header style */
 .message {
   background-color: $primary-blue;
@@ -490,7 +504,26 @@
 
 
 /*=============================================
-=           4. Footer                    =
+=           4. Bestellformulare page          =
+=============================================*/
+
+.pdf {
+  &__container {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  &__file {
+    max-width: 40rem;
+  }
+}
+
+
+
+
+
+/*=============================================
+=           4. 404 Page                    =
 =============================================*/
 .page-404 {
 
@@ -527,7 +560,7 @@
 
 
 /*=============================================
-=           4. Footer                    =
+=           5. Footer                    =
 =============================================*/
 
 .footer {

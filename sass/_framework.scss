@@ -12,13 +12,14 @@ html {
   
 body {
     color: $text-color;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
     display: -webkit-box;
     display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .content {
@@ -211,6 +212,7 @@ ol {
 
 .button {
     display: inline-block;
+    margin-bottom: 3rem;
 
     a {
         border-radius: 50px;
@@ -228,6 +230,12 @@ ol {
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
+
+        span {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
     }
 
     &__wrap {
@@ -239,8 +247,8 @@ ol {
         }
     }
 
-    &:first-of-type {
-        margin-bottom: 3rem;
+    &:last-of-type {
+        margin-bottom: 0;
     }
 
     &--blue {

@@ -111,3 +111,27 @@ $( ".menu-item a" ).each(function(index) {
         return false;
     });
 });
+
+
+
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### ##### #####
+    Swiper slider script
+##### ##### ##### ##### ##### ##### ##### ##### ##### ##### */
+
+var headerSwiper = new Swiper('.home-slider', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    preloadImages: true,
+    loop: true,
+    speed: 900,
+    pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+    },
+    autoplay: {
+        delay: 5000,
+    },
+});
+
+

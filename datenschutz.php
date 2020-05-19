@@ -31,7 +31,7 @@
                 <h3>EINWILLIGUNGERKLÄRUNG DS-GVO</h3>
 
                 <p class="paragraph">Falls Sie noch Fragen haben sollten, könne  Sie sich gerne telefonisch unter der<br>
-                Telefonnummer <a href="tel:004915202730706">01520 - 2730706</a><br>
+                Telefonnummer <a href="tel:004961289239215">06128 - 9239215</a><br>
                 oder<br>
                 per Email an <a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a><br>
                 an uns wenden.</p>

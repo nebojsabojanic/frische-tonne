@@ -21,6 +21,7 @@
                             <li class="unordered-list__item">Im Maisel 3</li>
                             <li class="unordered-list__item">65232 Taunusstein-Neuhof</li>
                             <li class="unordered-list__item">Tel: <a href="tel:061289239215">06128 - 9239215</a></li>
+                            <li class="unordered-list__item">Fax: 06128 - 982556</li>
                             <li class="unordered-list__item"><a href="mailto:info@frische-tonne.de">info@frische-tonne.de</a></li>
                         </ul>
                     </address><!-- end: .location -->

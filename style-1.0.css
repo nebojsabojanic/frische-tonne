@@ -415,6 +415,15 @@ ol {
   .header__cover--mobile {
     display: none; }
 
+.home-slider {
+  position: relative; }
+  .home-slider .swiper-pagination {
+    bottom: -1rem !important; }
+  .home-slider .swiper-container-horizontal > .swiper-pagination-bullets,
+  .home-slider .swiper-pagination-custom,
+  .home-slider .swiper-pagination-fraction {
+    bottom: -1rem; }
+
 /* Alt pages header style */
 .message {
   background-color: #326590;
@@ -1151,4 +1160,4 @@ ol {
   .footer .footer__bg--mobile {
     display: block; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-1.0.css.map */

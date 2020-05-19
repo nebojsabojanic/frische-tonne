@@ -26,7 +26,10 @@
 
 <!-- Scripts / Libraries
     ####################################################### -->
+    <!-- jQuery CDN Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Swiper CDN -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="<?php echo BASEURL; ?>/assets/js/app.js"></script>
 
 <!-- Cookie Law -->

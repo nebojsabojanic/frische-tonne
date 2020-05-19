@@ -17,7 +17,8 @@
   <title><?php echo $pageTitle . ' - ' . $siteName; ?></title>
 
   <!-- CSS Styles -->
-  <link rel="stylesheet" href="<?php echo BASEURL; ?>/style.css">
+  <link rel="stylesheet" href="<?php echo BASEURL; ?>/style-1.0.css">
+  <link rel="stylesheet" href="<?php echo BASEURL; ?>/assets/css/swiper.min.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/1ade7395c8.js" crossorigin="anonymous"></script>
