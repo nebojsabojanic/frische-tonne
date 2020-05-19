@@ -123,7 +123,7 @@ var headerSwiper = new Swiper('.home-slider', {
     slidesPerView: 1,
     spaceBetween: 10,
     preloadImages: true,
-    loop: true,
+    loop: false,
     speed: 900,
     pagination: {
         el: '.swiper-pagination',
